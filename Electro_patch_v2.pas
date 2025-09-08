@@ -1,6 +1,6 @@
-Program Electro;
+Program Electro_patch_v2;
 Const 
-    Freq = 80;
+    Freq = 120;
     R = 1;
 Var 
     t, y : Real;
