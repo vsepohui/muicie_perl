@@ -1,6 +1,6 @@
 Hello, dears!
 
-Ivan GPU Officer Trunaev. I'm from Russia, Uray.
+I'm Ivan Trunaev, GPU Officer from Russia, Uray.
 
 I'm still joy of Hardcode Open-Source, and keep: If you code based of my released, better, public your distribution in Open-Source kind of releasingship.
 
