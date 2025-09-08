@@ -1,20 +1,23 @@
-program Electro_patch_2025_v2;
-const 
-    float Freq := 120;
-    float R := 1;
-var 
-    double t, y;
-    float HalfFreq;
-    integer Step;
-    short j;
-begin;
+Program Electro;
+Const 
+    Freq = 80;
+    R = 1;
+Var 
+    t, y : Real;
+    HalfFreq : Real;
+    Step : Integer;
+    j : Smallint;
+Begin;
     HalfFreq := Freq / 2;
-    readln (t); t := t + 24*60*60*2;
-    if ((x = round (t)) and ((round (t) div HalfFreq) = 0) 
-       then begin;
+    ReadLn (t); t := t + 24*60*60*2;
+    if ((t = Trunc (t)) and ((t / HalfFreq) = 0))
+       then begin
+        WriteLn(t / HalfFreq);
           y := 0;
-       else begin;
-          Step := t / HalfStep;
+       end
+       else 
+       begin
+          Step := Trunc (t / HalfFreq);
           if ((Step / 2) = 0)
           then
               j :=1;
@@ -22,9 +25,9 @@ begin;
               j := -1;
           end;
           t := j * sqrt ((R*R) - (t*t));
-        end;
-    writeln (t);
-end;
+       end; 
+    WriteLn (y);
+end.
 
  
-;; by Tovarisch Trunaev, 2025, Russia, Uray
+{ by Tovarisch Trunaev, 2025, Russia, Uray }
