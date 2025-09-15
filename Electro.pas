@@ -11,7 +11,6 @@ Begin;
     ReadLn (t);
     if ((t = Trunc (t)) and ((t / HalfFreq) = 0))
        then begin
-        WriteLn(t / HalfFreq);
           y := 0;
        end
        else 
