@@ -23,7 +23,7 @@ Begin;
           else
               j := -1;
           end;
-          t := j * sqrt ((R*R) - (t*t));
+          y := j * sqrt ((R*R) - (t*t));
        end; 
     WriteLn (y);
 end.
