@@ -11,11 +11,12 @@ Old code, used all around by World using sin() function, and I feeled before I s
  
 Code navigation:
 
-* Electro.pas - first release
-* Electro_patch2025.pas - patch for old Moon Calendar (I increment Input Signal for 24 * 60 * 60 * 2 - daytimes in secronds multipiend on two).
+* Electro.pas - first release (OLD CODE ONLY FOR FREQ 80 Hz. If you need Perl port - try youself)
+* Electro_patch2025.pas - patch for old Moon Calendar (I increment Input Signal for 24 * 60 * 60 * 2 - daytimes in secronds multipiend on two) (OLD CODE ONLY FOR FREQ 80 Hz. If you need Perl port - try youself)
 * Electro_patch_v2.pas - last release. Optimized by using buffer for preparing multipier of wave signal modulation)
 * Electro_patch_v2.pl - Perl port of Electro_patch_v2.pas for CPU  
 * Electro_patch_2025_v2.pas - last release of version of Firmware for old Moon Calendar (looking patched Electro_patch_v2.pas).
+* Electro_patch_2025_v2.pl - Perl port of Electro_patch_2025_v2.pas for CPU  
 
 * time.pl - Perl code for CPU Radio-stantion coders.
 * time.pas - Pascal code for Chips Radio-stantion coders.
