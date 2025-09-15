@@ -12,7 +12,6 @@ Begin;
     ReadLn (t); t := t + 24*60*60*2;
     if ((t = Trunc (t)) and ((t / HalfFreq) = 0))
        then begin
-        WriteLn(t / HalfFreq);
           y := 0;
        end
        else 
@@ -24,7 +23,7 @@ Begin;
           else
               j := -1;
           end;
-          t := j * sqrt ((R*R) - (t*t));
+          y := j * sqrt ((R*R) - (t*t));
        end; 
     WriteLn (y);
 end.
