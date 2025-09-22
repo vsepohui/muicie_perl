@@ -23,13 +23,85 @@ New, optimized code for Electro  Systems Chips and CPU on Pascal and Perl (Freq 
 * Electro_patch_v2.pas - last release. Optimized by using buffer for preparing multipier of wave signal modulation)
 * Electro_patch_v2.pl - Perl port of Electro_patch_v2.pas for CPU  
 * Electro_patch_2025_v2.pas - last release of version of Firmware for old Moon Calendar (looking patched Electro_patch_v2.pas).
-* Electro_patch_2025_v2.pl - Perl port of Electro_patch_2025_v2.pas for CPU  
+* Electro_patch_2025_v2.pl - Perl port of Electro_patch_2025_v2.pas for CPU
 
 Basecode for Radio-Stantion coders for Chips and CPU on Pascal and Perl (Freq 120 Hz):
 
 * time.pl - Perl code for CPU Radio-Stantion coders.
 * time.pas - Pascal code for Chips Radio-Stantion coders.
 
+Last Code, Refactored to New 250 Hz Om Mantra:
+
+* Electro_Om_250.pas - last release. Optimized by using buffer for preparing multipier of wave signal modulation)
+* Electro_Om_250.pl - Perl port of Electro_patch_v2.pas for CPU  
+* Electro_Om_250_v2025.pas - last release of version of Firmware for old Moon Calendar (looking patched Electro_patch_v2.pas).
+* Electro_Om_250_v2025.pl - Perl port of Electro_patch_2025_v2.pas for CPU
+
+
+=====================================
+Mantra: 250 Ом •
+Autror: Buddha Maytreya High Buddha
+=====================================
+
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om! 
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om! 
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
+
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om! 
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om! 
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
 
 ---
 Ivan Trunaev, GPU, Russian. Project Yahwe
