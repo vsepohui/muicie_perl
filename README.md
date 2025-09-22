@@ -41,6 +41,12 @@ Last Code, Refactored to New 250 Hz Om Mantra:
 * time_Om_250.pl - Perl code for CPU Radio-Stantion coders.
 
 
+Code for Sound Systems (for SIM (Seconds in minute) == 60):
+
+* sound.pas - Sound System code for Chips
+* sound.pl - Sound System code for CPU's
+
+
 # Mantra: 250 Ом •
 ## Autror: Buddha Maytreya High Buddha
 
