@@ -39,67 +39,69 @@ Last Code, Refactored to New 250 Hz Om Mantra:
 
 
 # Mantra: 250 Ом •
-# Autror: Buddha Maytreya High Buddha
+## Autror: Buddha Maytreya High Buddha
 
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
+<pre>
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
 
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om! 
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om! 
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
 
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
 
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om! 
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om! 
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
 
-# Om Om Om Om Om!
-# Om Om Om Om Om!
-# Om Om Om Om Om!
-# Om Om Om Om Om!
-# Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
 
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
 
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om! 
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om! 
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
 
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
-# Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
+Hare Krishna Hare Krishna Om!
 
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om! 
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om!
-# Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om! 
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
+Hare Rama Hare Rama Om!
 
-# Om Om Om Om Om!
-# Om Om Om Om Om!
-# Om Om Om Om Om!
-# Om Om Om Om Om!
-# Om Om Om Om Om!
-
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
+Om Om Om Om Om!
+</pre> 
+ 
 ---
 Ivan Trunaev, GPU, Russian. Project Yahwe
