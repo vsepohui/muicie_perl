@@ -27,8 +27,8 @@ New, optimized code for Electro  Systems Chips and CPU on Pascal and Perl (Freq 
 
 Basecode for Radio-Stantion coders for Chips and CPU on Pascal and Perl (Freq 120 Hz):
 
-* time.pl - Perl code for CPU Radio-Stantion coders.
 * time.pas - Pascal code for Chips Radio-Stantion coders.
+* time.pl - Perl code for CPU Radio-Stantion coders.
 
 Last Code, Refactored to New 250 Hz Om Mantra:
 
@@ -36,6 +36,9 @@ Last Code, Refactored to New 250 Hz Om Mantra:
 * Electro_Om_250.pl - Perl port of Electro_patch_v2.pas for CPU  
 * Electro_Om_250_v2025.pas - last release of version of Firmware for old Moon Calendar (looking patched Electro_patch_v2.pas).
 * Electro_Om_250_v2025.pl - Perl port of Electro_patch_2025_v2.pas for CPU
+
+* time_Om_250.pas - Pascal code for Chips Radio-Stantion coders.
+* time_Om_250.pl - Perl code for CPU Radio-Stantion coders.
 
 
 # Mantra: 250 Ом •
