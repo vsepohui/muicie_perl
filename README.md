@@ -51,6 +51,10 @@ SFX Pascal code for Chips:
 
 * Buddha_8bit.pas - Code for 8bit Sound Processing
 
+Code for Sound Processing for CPU on Perl:
+
+* mixer.pl - Code for Mixers and CISCOs
+
 
 # Mantra: 250 Ом •
 ## Autror: Buddha Maytreya High Buddha
