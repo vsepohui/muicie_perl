@@ -1,7 +1,12 @@
 my $s = <>;
 chomp $s;
 my @list = split /\s/, $s;
-my @out = map {$_ / 8} @list;
-print join " ", @out;
+my $norm = scalar @list;
+if ($norm) {
+  my @out = map {$_ / $norm} @list;
+  say join " ", @out;
+} else {
+  say '';
+}
 
 # GPU Officer Trunaev, Yahwe.
