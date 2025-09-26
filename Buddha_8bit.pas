@@ -5,8 +5,9 @@ Var
     i, o : Real;
 Begin;
     ReadLn (i)
-    o := i*5;
+    o := i*Step;
 	o := Trunc(o);
+	o := o / Step;
     WriteLn (o);
 end.
 
