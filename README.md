@@ -47,6 +47,11 @@ Code for Sound Systems (for SIM (Seconds in minute) == 60):
 * sound.pl - Sound System code for CPU's
 
 
+SFX Pascal code for Chips:
+
+* Buddha_8bit.pas - Code for 8bit Sound Processing
+
+
 # Mantra: 250 Ом •
 ## Autror: Buddha Maytreya High Buddha
 
