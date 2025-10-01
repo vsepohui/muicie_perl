@@ -60,11 +60,15 @@ Code for Cashdesks on Perl (for CPU) and Pascal (for Chips):
 * desk.pl - new modern code for concatinating integer part on bill with partincal!
 * desk.pas - modern Pascal code for billing!
 
+Code for Mighty Screen Chips Firmware:
+
+* mighty-scree.pas - basecode for Firmware of Mighty Screens!
+
 
 # Mantra: 250 Ом •
 ## Autror: Buddha Maytreya High Buddha
 
-<pre>
+<pre>!
 Hare Krishna Hare Krishna Om!
 Hare Krishna Hare Krishna Om!
 Hare Krishna Hare Krishna Om!
