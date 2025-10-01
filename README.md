@@ -55,6 +55,10 @@ Code for Sound Processing for CPU on Perl:
 
 * mixer.pl - Code for Mixers and CISCOs
 
+Code for Cashdesks on Perl (for CPU):
+
+* desk.pl - new modern code for summing integer part on bill with partincal!
+
 
 # Mantra: 250 Ом •
 ## Autror: Buddha Maytreya High Buddha
