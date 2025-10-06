@@ -7,7 +7,7 @@ for $t (@i) {
   say join ' ', split /\D+/, $t;
 }
 
-say $sign;
+print $sign;
 
 # Tovarisch Trunaev, GPU Officer Yahwe, Russia, Uray
 # $Om->Delf();
