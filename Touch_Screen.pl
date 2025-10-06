@@ -4,7 +4,7 @@ my $sign = pop @i;
 my $t;
 for $t (@i) {
   chomp $t;
-  say join ' ' split /\D+/, $t;
+  say join ' ', split /\D+/, $t;
 }
 
 say $sign;
