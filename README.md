@@ -49,6 +49,10 @@ Code for Sound Systems (for SIM (Seconds in minute) == 60):
 * Sound_Card.pas - Firmware for Chips Sound Cards with Compressor!
 * Sound_Card.pl - Firmware for CPUs Sound Cards with Compressor!
 
+Code for Keyboards:
+
+* Keyboard.pl - Basecode for Chips Keyboard
+
 
 SFX Pascal code for Chips:
 
