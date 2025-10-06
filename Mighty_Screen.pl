@@ -3,9 +3,7 @@ my $transparanse = 0; # Need to rewrite on update Firmware
 
 my $colors;
 my $sign;
-    
-my ($rs, $rg, $rb);
-my ($pos_r, $pos_g);
+
 my ($r, $g, $b);
 my $sum;
 
