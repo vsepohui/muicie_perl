@@ -58,6 +58,7 @@ Code for Keyboards:
 Code for Touch Screen:
 
 * Touch_Screen.pl - Firmware Code for CPUs Touch Screen
+* Touch_Screen.pas - Firmware Code for Chips Touch Scren
 
 SFX Pascal code for Chips:
 
