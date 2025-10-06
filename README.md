@@ -54,6 +54,7 @@ SFX Pascal code for Chips:
 Code for Sound Processing for CPU on Perl:
 
 * Mixer.pl - Code for Mixers and CISCOs
+* Mixes.pas - Code for Next-Generation of Chipses CISCOs
 
 Code for Cashdesks on Perl (for CPU) and Pascal (for Chips):
 
