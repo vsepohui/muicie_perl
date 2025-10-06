@@ -32,7 +32,7 @@ Begin;
 	
 	WriteLn (Contrast);     { 1 }
 	WriteLn (r);            { 2 }
-	WriteLn (Round(((r + g + b) / sum) * 255)); { 3 }	
+	WriteLn (Round(sum / 255); { 3 }	
 	WriteLn (Transparanse); { 4 }
 	
 	If ((r > g) and (r > b) )
