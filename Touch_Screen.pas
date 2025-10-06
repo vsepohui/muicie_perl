@@ -11,7 +11,8 @@ Begin
   Repeat 
     ReadLn(buffer);
     p := Pos(buffer, '>');
-    If (p > 0) Then begin   { Last, coords block }
+    If ((p > 0) AND (step = 1)) Then begin   { Last, coords block }
+      step += 1;
       pos := 2;
       x: = Copy(buffer, 1, p - 2);
       p2 := PosEx(buffer, '>', pos + 1);
