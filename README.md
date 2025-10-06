@@ -27,8 +27,8 @@ New, optimized code for Electro  Systems Chips and CPU on Pascal and Perl (Freq 
 
 Basecode for Radio-Stantion coders for Chips and CPU on Pascal and Perl (Freq 120 Hz):
 
-* time.pas - Pascal code for Chips Radio-Stantion coders.
-* time.pl - Perl code for CPU Radio-Stantion coders.
+* Time.pas - Pascal code for Chips Radio-Stantion coders.
+* Time.pl - Perl code for CPU Radio-Stantion coders.
 
 Last Code, Refactored to New 250 Hz Om Mantra:
 
@@ -37,14 +37,14 @@ Last Code, Refactored to New 250 Hz Om Mantra:
 * Electro_Om_250_v2025.pas - last release of version of Firmware for old Moon Calendar (looking patched Electro_patch_v2.pas).
 * Electro_Om_250_v2025.pl - Perl port of Electro_patch_2025_v2.pas for CPU
 
-* time_Om_250.pas - Pascal code for Chips Radio-Stantion coders.
-* time_Om_250.pl - Perl code for CPU Radio-Stantion coders.
+* Time_Om_250.pas - Pascal code for Chips Radio-Stantion coders.
+* Time_Om_250.pl - Perl code for CPU Radio-Stantion coders.
 
 
 Code for Sound Systems (for SIM (Seconds in minute) == 60):
 
-* sound.pas - Sound System code for Chips
-* sound.pl - Sound System code for CPU's
+* Sound.pas - Sound System code for Chips
+* Sound.pl - Sound System code for CPU's
 
 
 SFX Pascal code for Chips:
@@ -53,16 +53,17 @@ SFX Pascal code for Chips:
 
 Code for Sound Processing for CPU on Perl:
 
-* mixer.pl - Code for Mixers and CISCOs
+* Mixer.pl - Code for Mixers and CISCOs
 
 Code for Cashdesks on Perl (for CPU) and Pascal (for Chips):
 
-* desk.pl - new modern code for concatinating integer part on bill with partincal!
-* desk.pas - modern Pascal code for billing!
+* Desk.pl - new modern code for concatinating integer part on bill with partincal!
+* Desk.pas - modern Pascal code for billing!
 
 Code for Mighty Screen Chips Firmware:
 
-* mighty-scree.pas - basecode for Firmware of Mighty Screens!
+* Mighty_Screen.pas - basecode for Firmware of Mighty Screens!
+* Mighty_Screen.pl - same code for CPU Video Cards (LOL!)
 
 
 # Mantra: 250 Ом •
