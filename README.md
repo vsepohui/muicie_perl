@@ -55,7 +55,8 @@ Code for Sound Processing for CPU on Perl:
 
 * Mixer.pl - Code for Mixers and CISCOs
 * Mixes.pas - Code for Next-Generation of Chipses CISCOs
-* Router.pl - Abstrat Router code for 32-channels!
+* Router.pl - Abstract Router code for 32-channels!
+* Router.pas - Abstract Router for Next-generation of Chips Rounters for 32-channels!
 
 Code for Cashdesks on Perl (for CPU) and Pascal (for Chips):
 
