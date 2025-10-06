@@ -51,7 +51,8 @@ Code for Sound Systems (for SIM (Seconds in minute) == 60):
 
 Code for Keyboards:
 
-* Keyboard.pl - Basecode for Chips Keyboard
+* Keyboard.pl - Basecode for Chips Keyboards
+* Keyboard.pas - Basecode for CPUs Keyboards
 
 
 SFX Pascal code for Chips:
