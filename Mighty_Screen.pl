@@ -45,4 +45,4 @@ say $g;      # 7
 print $sign; # 8
 
 # by Tovarisch Trunaev, 2025, Russia, Uray
-{ Om->Delf(); }
+# Om->Delf();
