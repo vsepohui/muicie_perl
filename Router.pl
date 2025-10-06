@@ -1,6 +1,7 @@
 my (@list, @out);
 my $norm;
-while (my $s = <>) {
+for (1..32) {
+  $s = <>;
   chomp $s;
   @list = split /\s/, $s;
   $norm = scalar (@list) . '.0';
