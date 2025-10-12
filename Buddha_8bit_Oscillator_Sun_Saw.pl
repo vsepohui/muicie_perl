@@ -15,7 +15,15 @@ my $memory = <$fm>;
 close $fm;
 
 chomp $memory;
-$startime = $memory // $t;
+
+unless (length $memory) {
+	$memory = $t;
+	open $fm, '>1';
+	say $fm $memory;
+	close $fm;
+}
+
+$startime = $memory;
 
 $offset = $t - $startime;
 
@@ -27,10 +35,6 @@ if ($step % 2 == 0) {
 	$x = $offet - $step * $length;
 	$r = -1 * sqrt(1 - $offset * $offset);
 }
-
-open $fm, '>1';
-say $fm $t;
-close $fm;
 
 say $r;
 
