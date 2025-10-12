@@ -60,9 +60,12 @@ Code for Touch Screen:
 * Touch_Screen.pl - Firmware Code for CPUs Touch Screen
 * Touch_Screen.pas - Firmware Code for Chips Touch Scren
 
-SFX Pascal code for Chips:
+SFX Pascal code for Chips & CPUs:
 
 * Buddha_8bit.pas - Code for 8bit Sound Processing
+* Buddha_8bit_Oscillator_Sun.pl - Code for Sun Oscillator signal generator (first code was on Chuck - chuck/imp.ck)
+* Buddha_8bit_Oscillator_Sun_Saw.pl - Code for Sun Saw Oscillator signal generator  (first code was on Chuck - chuck/imp-fix.ck)
+
 
 Code for Sound Processing for CPU on Perl:
 
