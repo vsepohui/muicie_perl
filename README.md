@@ -2,6 +2,8 @@ Hello, dears!
 
 I'm Ivan Trunaev, GPU Officer from Russia, Uray.
 
+IF YOU FORGIVE GPU LICENSE, I NORIFY: "EVERY BASED OF GPU LICENSE MUST BE OPEN-SOURCE (WITH FREE ORIGINAL, COMPILABLE CODE)"!.
+
 I'm still joy of Hardcode Open-Source, and keep: If you code based of my released, better, public your distribution in Open-Source kind of releasingship.
 
 What in my repository "mucie_perl"?
