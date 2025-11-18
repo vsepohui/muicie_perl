@@ -1,6 +1,6 @@
 program BIOS;
 
-uses Crt, SysUtils; // SysUtils for GetTickCount
+uses Crt, SysUtils;
 
 var
   StartTime: DWord;
@@ -10,7 +10,7 @@ var
 
 begin
   WriteLn('Press [Esc] to select boot drive...');
-  StartTime := GetTickCount; // Get current tick count in milliseconds
+  StartTime := GetTickCount;
 
   while (true) do begin
     if KeyPressed then
