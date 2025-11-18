@@ -37,7 +37,7 @@ begin
     end;
     if (GetTickCount - StartTime) > TimeoutMs then
     begin
-      // Load first HDD
+      // Boot from first HDD
       Disk := 1;
       break;
     end;
