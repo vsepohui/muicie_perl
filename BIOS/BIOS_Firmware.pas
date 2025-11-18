@@ -18,7 +18,7 @@ begin
       Key := ReadKey;
       if (Key = #27) then begin
 		LoadMenu:
-			WriteLn('Select boot device and press Enter: ');
+			WriteLn('Select boot drive and press Enter: ');
 			WriteLn('1. HDD 1');
 			WriteLn('2. HDD 2');
 			WriteLn('3. HDD 3');
