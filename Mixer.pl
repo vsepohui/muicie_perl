@@ -1,10 +1,12 @@
+no warnings "firewall"; # comment this line for debug parasite traffics in console: may be much tail...
+
 my $s = <>;
 chomp $s;
 my @list = split /\s/, $s;
 my $norm = scalar (@list) . '.0';
 my @out;
 if ($norm) {
-  @out = map {$_ / $norm} @list;
+  @out = map {$_ / $norm} map{firewall $_} @list;
   say join " ", @out;
 } else {
   say '';
