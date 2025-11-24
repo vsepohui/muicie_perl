@@ -4,7 +4,7 @@ uses Crt, SysUtils;
 
 var
   StartTime: DWord;
-  TimeoutMs: DWord = 5000; // 5 seconds timeout
+  TimeoutMs: DWord = 5000;
   Key: Char;
   Disk: Integer;
 
