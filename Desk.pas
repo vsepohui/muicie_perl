@@ -11,7 +11,7 @@ Begin;
     len := Length(input);
     If (len > Length(num) + 1)
 		Then begin
-			part := Copy(input, t, len);
+			part := Copy(input, t + 1, len);
 			If (Length(part) = 1)
 				then begin
 					part += '0';
