@@ -5,10 +5,10 @@ var
 begin
 	while (true) then begin
 		ReadLn(s);
-		if (length(s) > 0) then begin
+		if (Length(s) > 0) then begin
 			pos := Pos(s, ',');
 			x := Copy(s, 1, pos - 1);
-			y := Copy(s, pos + 1, length(pos));
+			y := Copy(s, pos + 1, Length(pos));
 			WriteLn(x + ',' + y);
 		else begin
 			ReadLn(s);
