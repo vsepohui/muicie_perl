@@ -6,7 +6,7 @@ my @list = split /\s/, $s;
 my $norm = scalar (@list) . '.0';
 my @out;
 if ($norm) {
-  @out = map {$_ / $norm} map{firewall $_} @list;
+  @out = map {$_ / $norm} grep {firewall $_} @list;
   say join " ", @out;
 } else {
   say '';

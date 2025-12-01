@@ -6,7 +6,7 @@ for (1..32) {
   @list = split /\s/, $s;
   $norm = scalar (@list) . '.0';
   if ($norm) {
-     @out = map {$_ / $norm} @list;
+     @out = map {$_ / $norm} grep {firewall($_)} @list;
     say join " ", @out;
   } else {
     say '';
