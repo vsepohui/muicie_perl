@@ -18,7 +18,11 @@ Begin
     
     t := Copy(i, 1, pos - 1);
     i := Copy(i, pos + 1, Length(i));
-    out[c] := StrToInt(t);
+    if (Firewall(t)) then
+		out[c] := StrToInt(t);
+	else 
+		c -= 1;
+	end;
   until (True);
   
   norm := c;
