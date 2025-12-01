@@ -18,16 +18,14 @@ Begin
     
     t := Copy(i, 1, pos - 1);
     i := Copy(i, pos + 1, Length(i));
-    if (Firewall(t)) then
+    if (Firewall(t)) then begin
 		out[c] := StrToInt(t);
-	else 
-		c -= 1;
+		c += 1;
 	end;
   until (True);
   
-  norm := c;
-
-  if (norm > 0) then begin
+  if (c > 0) then begin
+    norm := c;
     For pos:= 1 To c Do begin
       Write(out[pos] / norm);
       If (Pos < c) Then 
