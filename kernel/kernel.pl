@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-my $code = split //, <>;
+my $code = join '', <>;
 
 open my $fo, '>1';
 print $fo $code;
