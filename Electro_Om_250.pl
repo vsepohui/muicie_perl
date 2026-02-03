@@ -8,7 +8,7 @@ my $half_freq;
 my $step;
 my $j;
 
-$half_freq = $freq / 2;
+$half_freq = $f / 2;
 $t = <>;
 
 if (($t == int ($t)) && (($t / $half_freq) == 0)) {
