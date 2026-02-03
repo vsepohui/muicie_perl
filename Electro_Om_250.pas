@@ -1,14 +1,17 @@
 Program Electro_Om_250;
 Const 
     Freq = 250;
+    SIM  = 60;
     R = 1;
 Var 
     t, y : Real;
+    f : Real;
     HalfFreq : Real;
     Step : Integer;
     j : Smallint;
 Begin;
-    HalfFreq := Freq / 2;
+	f : = Freq / SIM;
+    HalfFreq := f / 2;
     ReadLn (t);
     if ((t = Trunc (t)) and ((t / HalfFreq) = 0))
        then begin

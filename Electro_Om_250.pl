@@ -1,4 +1,6 @@
 my $freq = 250;
+my $SIM = 60;
+my $f = $freq / $SIM;
 my $r = 1;
 
 my ($t, $y);
