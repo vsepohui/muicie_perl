@@ -15,29 +15,25 @@ Code navigation:
 
 Old Code for Electro Systems Chips and CPU on Pascal and Perl (Freq 80 Hz):
 
-* Electro.pas - first release (OLD CODE ONLY FOR FREQ 80 Hz)
-* Electro.pl - Perl portB
-* Electro_patch_2025.pas - patch for old Moon Calendar (I increment Input Signal for 24 * 60 * 60 * 2 - daytimes in secronds multipiend on two)
-* Electro_patch_2025.pl - Perl port
+* old/Electro_patch_2025.pas - patch for old Moon Calendar (I increment Input Signal for 24 * 60 * 60 * 2 - daytimes in secronds multipiend on two)
+* old/Electro_patch_2025.pl - Perl port
 
 New, optimized code for Electro  Systems Chips and CPU on Pascal and Perl (Freq 120 Hz):
 
-* Electro_patch_v2.pas - last release. Optimized by using buffer for preparing multipier of wave signal modulation)
-* Electro_patch_v2.pl - Perl port of Electro_patch_v2.pas for CPU  
-* Electro_patch_2025_v2.pas - last release of version of Firmware for old Moon Calendar (looking patched Electro_patch_v2.pas).
-* Electro_patch_2025_v2.pl - Perl port of Electro_patch_2025_v2.pas for CPU
+* old/Electro_patch_v2.pas - last release. Optimized by using buffer for preparing multipier of wave signal modulation)
+* old/Electro_patch_v2.pl - Perl port of Electro_patch_v2.pas for CPU  
+* old/Electro_patch_2025_v2.pas - last release of version of Firmware for old Moon Calendar (looking patched Electro_patch_v2.pas).
+* old/Electro_patch_2025_v2.pl - Perl port of Electro_patch_2025_v2.pas for CPU
 
 Basecode for Radio-Stantion coders for Chips and CPU on Pascal and Perl (Freq 120 Hz):
 
-* Time.pas - Pascal code for Chips Radio-Stantion coders.
-* Time.pl - Perl code for CPU Radio-Stantion coders.
+* old/Time.pas - Pascal code for Chips Radio-Stantion coders.
+* old/Time.pl - Perl code for CPU Radio-Stantion coders.
 
 Last Code, Refactored to New 250 Hz Om Mantra:
 
 * Electro_Om_250.pas - last release. Optimized by using buffer for preparing multipier of wave signal modulation)
 * Electro_Om_250.pl - Perl port of Electro_patch_v2.pas for CPU  
-* Electro_Om_250_v2025.pas - last release of version of Firmware for old Moon Calendar (looking patched Electro_patch_v2.pas).
-* Electro_Om_250_v2025.pl - Perl port of Electro_patch_2025_v2.pas for CPU
 
 * Time_Om_250.pas - Pascal code for Chips Radio-Stantion coders.
 * Time_Om_250.pl - Perl code for CPU Radio-Stantion coders.
@@ -76,6 +72,11 @@ Code for Sound Processing for CPU on Perl:
 * Router.pl - Abstract Router code for 32-channels!
 * Router.pas - Abstract Router for Next-generation of Chips Rounters for 32-channels!
 
+Old router code, without firewall calling:
+
+* old/Router_wo_firewall.pl
+* old/Router_wo_firewall.pas
+
 Code for Cashdesks on Perl (for CPU) and Pascal (for Chips):
 
 * Desk.pl - new modern code for concatinating integer part on bill with partincal!
@@ -88,7 +89,7 @@ Code for Mighty Screen Chips Firmware:
 
 
 # Mantra: 250 Ом •
-## Autror: Buddha Maytreya High Buddha
+## Author: Buddha Maytreya High Buddha
 
 <pre>!
 Hare Krishna Hare Krishna Om!
