@@ -1,1 +1,2 @@
-*.* working-tree-encoding=ASCII
+*.pas working-tree-encoding=ascii
+*.pl working-tree-encoding=ascii
