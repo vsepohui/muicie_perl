@@ -11,3 +11,5 @@ if ($w < 0.81) {
 }
 
 1;
+
+# by Tovarisch Trunaev, 2026, Russia, Uray
