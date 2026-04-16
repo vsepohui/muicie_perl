@@ -10,6 +10,7 @@ Begin;
 		WriteLn (signal);
 	Else 
 		WriteLn (BlackScreen);
+		WriteLn ('No signal'); // sign
 end.
 
 { by Tovarisch Trunaev, 2026, Russia, Uray }

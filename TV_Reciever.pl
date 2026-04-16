@@ -11,6 +11,7 @@ if (substr($signal, 0, 1) ne '-') {
 	say $signal;
 } else {
 	say "0,0,0";
+	say "No signal"; # sign
 }
 
 1;
