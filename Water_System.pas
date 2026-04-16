@@ -1,4 +1,4 @@
-Program Buddha_8bit;
+Program Water_System;
 Const 
 	Min = 0.42;
     Median = 0.81;
