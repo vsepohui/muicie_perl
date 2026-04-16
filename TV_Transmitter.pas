@@ -1,11 +1,11 @@
 Program TV_Transmitter;
 Const 
-	Stop = '-1';
+	Stop = '-'; # -1 HARDCODE TO FIRST CHAR
 Var 
     signal : string;
 Begin;
     ReadLn (signal)
-    IF (signal <> Stop) Then
+    IF (signal[1] <> Stop) Then
 		WriteLn (signal);
 end.
 
