@@ -1,6 +1,6 @@
 Program Buddha_8bit;
 Const 
-	Min = 0.5;
+	Min = 0.42;
     Median = 0.81;
     MaxPower = 1;
     MinPower = 0.8;
