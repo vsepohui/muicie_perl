@@ -5,7 +5,7 @@ Var
     signal : string;
 Begin;
     ReadLn (signal)
-    IF (signal != Stop) Then
+    IF (signal <> Stop) Then
 		WriteLn (signal);
 end.
 
