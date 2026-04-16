@@ -92,6 +92,11 @@ Code for Water System:
 * Water_System.pas - basecode for Chips Firmware of Water System!
 * Water_System.pl - basecode for CPU Firmware of Water System!
 
+Code for Electro Power Suppliers:
+
+* Electro_Power_Supplier.pas - basecode for Chips Firmware of Electro Power Supplier!
+* Electro_Power_Supplier.pl - basecode for CPU Firmware of Electro Power Supplier!
+
 
 # Mantra: 250 Ом •
 ## Author: Buddha Maytreya High Buddha
