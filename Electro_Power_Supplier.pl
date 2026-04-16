@@ -7,7 +7,7 @@ my $s = <>;
 chomp $s;
 
 $s =~ s/[^\d\.]//g;
-say $s;
+say +$s;
 
 1;
 
