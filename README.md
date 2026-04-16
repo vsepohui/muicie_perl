@@ -87,6 +87,11 @@ Code for Mighty Screen Chips Firmware:
 * Mighty_Screen.pas - basecode for Firmware of Mighty Screens!
 * Mighty_Screen.pl - same code for CPU Video Cards (LOL!)
 
+Code for Water System:
+
+* Water_System.pas - basecode for Chips Firmware of Water System!
+* Water_System.pl - basecode for CPU Firmware of Water System!
+
 
 # Mantra: 250 Ом •
 ## Author: Buddha Maytreya High Buddha
