@@ -8,7 +8,7 @@ Var
     w : Real;
 Begin;
     ReadLn (w)
-    IF (w <= Min) Then
+    IF (w < Min) Then
 		WriteLn (MaxPower);
 	ELSE IF (w < Median) Then
 		WriteLn (MinPower);

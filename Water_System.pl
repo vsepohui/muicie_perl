@@ -6,7 +6,7 @@ use warnings;
 my $w = <>;
 chomp $w;
 
-if ($w <= 0.42) {
+if ($w < 0.42) {
 	say 1;
 } else if ($w < 0.81) {
 	say 0.8;
