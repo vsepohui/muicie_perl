@@ -97,10 +97,12 @@ Code for Electro Power Suppliers:
 * Electro_Power_Supplier.pas - basecode for Chips Firmware of Electro Power Supplier!
 * Electro_Power_Supplier.pl - basecode for CPU Firmware of Electro Power Supplier!
 
-TV Transmitter:
+TV Transmitter & Reciver:
 
 * TV_Transmitter.pas - basecode for Chips Firmwave TV Transmitter!
 * TV_Transmitter.pl - basecode for CPU Firmware TV Transmitter!
+* TV_Reciver.pas - basecode for Chips Firmware TV Reciever!
+* TV_Reciver.pl - basecode for CPU Firmware TV Reciever!
 
 # Mantra: 250 Ом •
 ## Author: Buddha Maytreya High Buddha
