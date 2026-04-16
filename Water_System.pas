@@ -1,7 +1,7 @@
 Program Buddha_8bit;
 Const 
     Median = 0.81;
-    Power = 0.5;
+    Power = 0.8;
 Var 
     w : Real;
 Begin;
