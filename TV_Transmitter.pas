@@ -1,6 +1,6 @@
 Program TV_Transmitter;
 Const 
-	Stop = '-'; # -1 HARDCODE TO FIRST CHAR
+	Stop = '-'; // -1 HARDCODE TO FIRST CHAR
 Var 
     signal : string;
 Begin;

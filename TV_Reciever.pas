@@ -1,6 +1,6 @@
 Program TV_Transmitter;
 Const 
-	Stop = '-'; # -1 HARDCODE TO FIRST CHAR
+	Stop = '-'; // -1 HARDCODE TO FIRST CHAR
 	BlackScreen = '0,0,0';
 Var 
     signal : string;
