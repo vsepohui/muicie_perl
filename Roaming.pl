@@ -14,6 +14,7 @@ $balance =~ s/\.0+$/\./;
 my $b = int $balance;
 $balance = $b . '.' if $b == $balance;
 
+$id =~ s/[^\d\-\#ACEa-z]//g;
 my $hex = sprintf("%X", crc16($id));
 
 say $hex;
