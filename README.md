@@ -111,10 +111,12 @@ Radio Transmitter & Reciever:
 * Radio_Reciever.pas - basecode for Chips Firmware Radio Reciever!
 * Radio_Reciever.pl - basecode for CPU Firmware Radio Reciever!
 
-Stream:
+Stream & Stream Decoder:
 
 * Stream.pas - basecode for Chips Firmware Stream!
 * Stream.pl - basecode for CPU Firmware Stream!
+* Stream_Decoder.pas - basecode for Chips Firmware Stream Decoder!
+* Stream_Decoder.pl - basecode for CPU Firmware Stream Decoder!
 
 # Mantra: 250 Ом •
 ## Author: Buddha Maytreya High Buddha
