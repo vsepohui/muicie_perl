@@ -31,7 +31,12 @@ Begin;
     ReadLn (id);
     ReadLn (balance);
     
-    crc := CRC16(id);
+
+	for dot_pos := 1 to Length(id) do
+		if dot_pos[dot_pos] in ['0'..'9', '-', '#', 'A', 'C', 'E', 'a' .. 'z'] then
+			b := b + id[dot_pos];
+
+    crc := CRC16(b);
     hex := IntToHex (crc);
 	
 	b := FloatToStr (balance);
