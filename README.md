@@ -104,10 +104,12 @@ TV Transmitter & Reciver:
 * TV_Reciver.pas - basecode for Chips Firmware TV Reciever!
 * TV_Reciver.pl - basecode for CPU Firmware TV Reciever!
 
-Radio Transmitter:
+Radio Transmitter & Reciever:
 
 * Radio_Transmitter.pas - basecode for Chips Firmware Radio Transmitter!
 * Radio_Transmitter.pl - basecode for CPU Firmware Radio Transmitter!
+* Radio_Reciever.pas - basecode for Chips Firmware Radio Reciever!
+* Radio_Reciever.pl - basecode for CPU Firmware Radio Reciever!
 
 # Mantra: 250 Ом •
 ## Author: Buddha Maytreya High Buddha
