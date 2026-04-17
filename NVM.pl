@@ -6,7 +6,7 @@ use warnings;
 my @s = <>;
 my $sign = pop @s;
 
-my $endl = 'Н';
+my $endl = chr (141);
 
 for (@s) {
 	chomp;
