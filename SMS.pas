@@ -1,4 +1,4 @@
-Program Roaming;
+Program SMS;
 Uses
 	SysUtils;
 Var 
