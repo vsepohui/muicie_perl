@@ -129,6 +129,12 @@ Roaming & Roaming Reciever:
 * Roaming_Reciever.pas - basecode for Chips Firmware Roaming!
 * Roaming_Reciever.pl - basecode for CPU Firmware Roaming Reciever!
 
+SMS:
+
+* SMS.pas - basecode for Chips Firmware SMS!
+* SMS.pl - basecode for CPU Firmware SMS!
+
+
 # Mantra: 250 Ом •
 ## Author: Buddha Maytreya High Buddha
 
