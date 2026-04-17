@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+
+use strict;
+use warnigns;
+
+my $s = <>;
+chomp $s;
+
+my ($r, $g, $b) = map {hex($_)} ($s =~ /../g);
+
+say $r . ',' . $g . ',' . $b;
+
+1;
+
+# by Tovarisch Trunaev, 2026, Russia, Uray
