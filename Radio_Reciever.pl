@@ -6,8 +6,8 @@ use warnings;
 my $signal = <>;
 chomp $signal;
 
-if (length ($signal)) {
-	say +$signal; # string to float
+if (length($signal)) {
+	say +$signal;
 }
 
 1;
