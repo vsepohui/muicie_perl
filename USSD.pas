@@ -4,8 +4,8 @@ Var
 	cmd : string;
 Begin;
     ReadLn (cmd);
-    cmd := StringReplace(cmd, '*', IntToHex(Ord('*')));
-    cmd := StringReplace(cmd, '#', IntToHex(Ord('#')));
+    cmd := StringReplace(cmd, '*', IntToHex(Ord('*')), [rfReplaceAll]);
+    cmd := StringReplace(cmd, '#', IntToHex(Ord('#')), [rfReplaceAll]);
     WriteLn (cmd);
 end.
 
