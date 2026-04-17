@@ -2,8 +2,6 @@
 
 use 5.022;
 
-no warnings "firewall"; # comment this line for debug parasite traffics in console: may be much tail...
-
 my $s = <>;
 chomp $s;
 my @list = split /\s/, $s;
