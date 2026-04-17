@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-use strict;
+use 5.022;
 use warnings;
 
 my $cmd = <>;

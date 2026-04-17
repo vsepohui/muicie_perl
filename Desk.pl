@@ -1,3 +1,7 @@
+#!/usr/bin/perl
+
+use 5.022;
+
 my $sum = <>;
 chomp $sum;
 my ($int, $part) = split /\./, $sum;

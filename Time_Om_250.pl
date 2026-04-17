@@ -1,3 +1,7 @@
+#!/usr/bin/perl
+
+use 5.022;
+
 my $freq = 250;
 my $sec_in_min = 60;
 

@@ -1,3 +1,7 @@
+#!/usr/bin/perl
+
+use 5.022;
+
 my $freq = 250;
 my $SIM = 60;
 my $f = $freq / $SIM;

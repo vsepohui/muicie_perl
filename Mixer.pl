@@ -1,3 +1,7 @@
+#!/usr/bin/perl
+
+use 5.022;
+
 no warnings "firewall"; # comment this line for debug parasite traffics in console: may be much tail...
 
 my $s = <>;

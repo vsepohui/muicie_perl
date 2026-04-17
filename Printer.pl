@@ -1,3 +1,7 @@
+#!/usr/bin/perl
+
+use 5.022;
+
 my $s;
 while($s = <>) {
 	chomp $s;

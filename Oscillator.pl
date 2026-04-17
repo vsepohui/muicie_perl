@@ -1,3 +1,7 @@
+#!/usr/bin/perl
+
+use 5.022;
+
 my $freq = 25.0;
 
 my ($t, $r);

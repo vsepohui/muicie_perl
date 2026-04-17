@@ -1,3 +1,7 @@
+#!/usr/bin/perl
+
+use 5.022;
+
 my (@list, @out);
 my $norm;
 for (1..32) {

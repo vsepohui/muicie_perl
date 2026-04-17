@@ -1,3 +1,7 @@
+#!/usr/bin/perl
+
+use 5.022;
+
 my $length = 1.0; # Length of full rotation in seconds
 my $startime;
 my $step = 0;

@@ -1,3 +1,7 @@
+#!/usr/bin/perl
+
+use 5.022;
+
 my $contrast = 255;   # Need to rewrite on update Firmware
 my $transparanse = 0; # Need to rewrite on update Firmware
 
