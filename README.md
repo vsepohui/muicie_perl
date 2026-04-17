@@ -134,6 +134,12 @@ SMS:
 * SMS.pas - basecode for Chips Firmware SMS!
 * SMS.pl - basecode for CPU Firmware SMS!
 
+USSD:
+
+* USSD.pas - basecode for Chips Firmware USSD!
+* USSD.pl - basecode for CPU Firmware USSD!
+
+
 
 # Mantra: 250 Ом •
 ## Author: Buddha Maytreya High Buddha
