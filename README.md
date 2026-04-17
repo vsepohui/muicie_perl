@@ -122,6 +122,13 @@ Stream & Stream Decoder & Stream Audio & Stream Audio Decoder:
 * Stream_Audio_Decoder.pas - basecode for Chips Firmware Stream Audio Decoder!
 * Stream_Audio_Decoder.pl - basecode for CPU Firmware Stream Audio Decoder!
 
+Roaming & Roaming Reciever:
+
+* Roaming.pas - basecode for Chips Firmware Roaming!
+* Roaming.pl - basecode for CPU Firmware Roaming Reciever!
+* Roaming_Reciever.pas - basecode for Chips Firmware Roaming!
+* Roaming_Reciever.pl - basecode for CPU Firmware Roaming Reciever!
+
 # Mantra: 250 Ом •
 ## Author: Buddha Maytreya High Buddha
 
