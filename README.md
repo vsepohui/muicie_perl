@@ -139,6 +139,11 @@ USSD:
 * USSD.pas - basecode for Chips Firmware USSD!
 * USSD.pl - basecode for CPU Firmware USSD!
 
+GSM:
+
+* GSM.pas - basecode for Chips Firmware GSM!
+* GSM.pl - basecode for CPU Firmware GSM!
+
 
 
 # Mantra: 250 Ом •
