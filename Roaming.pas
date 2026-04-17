@@ -5,7 +5,7 @@ Var
     id, b, s, hex: string;
     balance : real;
     crc : word;
-    dot_pos : integer;
+    i : integer;
 
 function CRC16(const Msg: string): Word;
 var
@@ -31,17 +31,18 @@ Begin;
     ReadLn (id);
     ReadLn (balance);
     
+	s := '';
+	
+	for i := 1 to Length(id) do
+		if id[i] in ['0'..'9', '-', '#', 'A', 'C', 'E', 'a' .. 'z'] then
+			s := s + id[i];
 
-	for dot_pos := 1 to Length(id) do
-		if dot_pos[dot_pos] in ['0'..'9', '-', '#', 'A', 'C', 'E', 'a' .. 'z'] then
-			b := b + id[dot_pos];
-
-    crc := CRC16(b);
+    crc := CRC16(s);
     hex := IntToHex (crc);
 	
 	b := FloatToStr (balance);
-	dot_pos := Pos (b, '.');
-	If (dot_pos = -1) Then
+	i := Pos (b, '.');
+	If (i = -1) Then
 		s := b  + '.';
 	Else
 		s := b;
