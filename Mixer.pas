@@ -1,4 +1,4 @@
-Program Mixer
+Program Mixer;
 uses
   SysUtils;
 Var 
