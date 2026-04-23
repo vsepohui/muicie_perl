@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#Mighty_Screen
 
 use 5.022;
 

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#Buddha_8_Bit_Stereo
 
 use 5.022;
 

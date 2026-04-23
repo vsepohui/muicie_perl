@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#Printer
 
 use 5.022;
 

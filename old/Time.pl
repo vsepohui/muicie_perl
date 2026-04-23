@@ -1,3 +1,5 @@
+#Time [old]
+
 my $freq = 120;
 my $sec_in_min = 60;
 $freq /= $sec_in_min;

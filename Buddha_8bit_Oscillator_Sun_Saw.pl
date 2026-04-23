@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#Buddha_8_Bit_Oscillator_Sun_Saw
 
 use 5.022;
 

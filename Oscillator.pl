@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#Oscillator
 
 use 5.022;
 
