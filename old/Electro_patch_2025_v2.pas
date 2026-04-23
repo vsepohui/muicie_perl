@@ -1,4 +1,4 @@
-Program Electro_patch_2025_v2;
+Program Electro; {patch_2025_v2}
 Const 
     Freq = 120;
     R = 1;

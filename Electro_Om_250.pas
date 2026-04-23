@@ -1,4 +1,4 @@
-Program Electro_Om_250;
+Program Electro; {Om_250}
 Const 
     Freq = 250;
     SIM  = 60;

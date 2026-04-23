@@ -1,4 +1,4 @@
-Program Router
+Program Router; {without_firewall}
 uses
   SysUtils, Crt;
 Const

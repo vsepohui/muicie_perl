@@ -1,4 +1,4 @@
-program Electro_patch2025;
+program Electro; {patch2025}
     const
        Freq = 80.0;
        R = 1.0;

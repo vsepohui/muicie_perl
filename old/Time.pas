@@ -1,4 +1,4 @@
-Program Time;
+Program Time; {old}
 Const 
    Freq = 120;
    Sec_in_min = 60;

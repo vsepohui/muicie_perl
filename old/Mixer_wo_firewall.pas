@@ -1,4 +1,4 @@
-Program Mixer
+Program Mixer; {without_firewall}
 uses
   SysUtils;
 Var 
