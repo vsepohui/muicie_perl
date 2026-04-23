@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#Stream
 
 use 5.022;
 use warnigns;

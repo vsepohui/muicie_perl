@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#SMS
 
 use 5.022;
 use warnings;

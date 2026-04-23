@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#Time [Om_250]
 
 use 5.022;
 

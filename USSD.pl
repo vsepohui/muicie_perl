@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#USSD
 
 use 5.022;
 use warnings;
