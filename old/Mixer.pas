@@ -1,4 +1,4 @@
-Program Mixer; {without_firewall}
+Program Mixer
 uses
   SysUtils;
 Var 
@@ -18,9 +18,10 @@ Begin
     
     t := Copy(i, 1, pos - 1);
     i := Copy(i, pos + 1, Length(i));
-    
-    out[c] := StrToInt(t);
-	c += 1;
+    if (Firewall(t)) then begin
+		out[c] := StrToInt(t);
+		c += 1;
+	end;
   until (True);
   
   if (c > 0) then begin

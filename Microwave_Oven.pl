@@ -2,6 +2,8 @@
 
 my $t = <>;
 chomp $t;
+
+$t ++;
 $t = 100 if $t > 100;
 
 say $t;

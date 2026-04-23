@@ -1,4 +1,4 @@
-Program Router; {without_firewall}
+Program Router
 uses
   SysUtils, Crt;
 Const
@@ -20,9 +20,10 @@ Begin
       
       t := Copy(i, 1, pos - 1);
       i := Copy(i, pos + 1, Length(i));
-      
-	  out[c] := StrToInt(t);
-	  c += 1;
+      if (Firewall (t)) then begin
+		out[c] := StrToInt(t);
+		c += 1;
+	  end;
 
     until (True);
 

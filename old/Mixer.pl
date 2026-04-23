@@ -1,10 +1,12 @@
-#Mixer [without_firewall]
+#Mixer
 
 use 5.022;
 
+no warnings "firewall"; # comment this line for debug parasite traffics in console: may be much tail...
+
 my $s = <>;
 chomp $s;
-my @list = split /\s/, $s;
+my @list = grep {firewall $_} split /\s/, $s;
 my $norm = scalar (@list) . '.0';
 my @out;
 if ($norm) {

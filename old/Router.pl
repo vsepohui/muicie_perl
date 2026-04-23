@@ -1,11 +1,13 @@
-#Router [without_firewall]
+#Router
+
+use 5.022;
 
 my (@list, @out);
 my $norm;
 for (1..32) {
   $s = <>;
   chomp $s;
-  @list = split /\s/, $s;
+  @list = grep {firewall $_} split /\s/, $s;
   $norm = scalar (@list) . '.0';
   if ($norm) {
      @out = map {$_ / $norm} @list;
