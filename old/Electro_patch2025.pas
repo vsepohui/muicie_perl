@@ -1,10 +1,10 @@
 program Electro_patch2025;
     const
-       float Freq := 80;
-       float R := 1;
+       Freq = 80.0;
+       R = 1.0;
     var
        double t, y;
-       float HalfFreq;
+       real HalfFreq;
        integer Step;
     begin;
        HalfFreq := Freq / 2;
@@ -24,4 +24,4 @@ program Electro_patch2025;
     writeln (t);
 end;
 
-;; by Tovarisch Trunaev, 2025, Russia, Uray
+{ by Tovarisch Trunaev, 2025, Russia, Uray }
