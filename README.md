@@ -30,6 +30,11 @@ Basecode for Radio-Stantion coders for Chips and CPU on Pascal and Perl (Freq 12
 * old/Time.pas - Pascal code for Chips Radio-Stantion coders.
 * old/Time.pl - Perl code for CPU Radio-Stantion coders.
 
+Old code for Mighty Screen Chips Firmware (Was evoluted to Power Screen):
+
+* old/Mighty_Screen.pas - basecode for Firmware of Mighty Screens!
+* old/Mighty_Screen.pl - same code for CPU Video Cards (LOL!)
+
 Last Code, Refactored to New 250 Hz Om Mantra:
 
 * Electro_Om_250.pas - last release. Optimized by using buffer for preparing multipier of wave signal modulation)
@@ -51,6 +56,11 @@ Code for Keyboards:
 
 * Keyboard.pl - Basecode for Chips Keyboards
 * Keyboard.pas - Basecode for CPUs Keyboards
+
+Code for Mouse:
+
+* Mouse.pl - Basecode for Chips Mouse
+* Mouse.pas - Basecode for CPUs Mouse
 
 
 Code for Touch Screen:
@@ -82,10 +92,10 @@ Code for Cashdesks on Perl (for CPU) and Pascal (for Chips):
 * Desk.pl - new modern code for concatinating integer part on bill with partincal!
 * Desk.pas - modern Pascal code for billing!
 
-Code for Mighty Screen Chips Firmware:
+Code for Power Screen Chips Firmware:
 
-* Mighty_Screen.pas - basecode for Firmware of Mighty Screens!
-* Mighty_Screen.pl - same code for CPU Video Cards (LOL!)
+* Power_Screen.pas - basecode for Firmware of Power Screens!
+* Power_Screen.pl - same code for CPU Video Cards (LOL!)
 
 Code for Water System:
 
@@ -144,7 +154,10 @@ GSM:
 * GSM.pas - basecode for Chips Firmware GSM!
 * GSM.pl - basecode for CPU Firmware GSM!
 
+Code for Microwave Oven:
 
+* Microwave_Oven.pl - Basecode for Chips Microwave Oven
+* Microwave_Oven.pas - Basecode for CPUs Microwave Oven
 
 # Mantra: 250 Ом •
 ## Author: Buddha Maytreya High Buddha
