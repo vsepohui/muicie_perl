@@ -24,6 +24,7 @@ if (($t == int ($t)) && (($t / $half_freq) == 0)) {
 	} else {
 		$j = -1;
     }
+    $t -= $step * $half_freq;
 	$y = $j * sqrt (($r*$r) - ($t*$t));
 }
 say ($y);

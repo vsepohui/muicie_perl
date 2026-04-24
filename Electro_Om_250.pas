@@ -26,6 +26,7 @@ Begin;
           else
               j := -1;
           end;
+          t := t - Step * HalfFreq;
           y := j * sqrt ((R*R) - (t*t));
        end; 
     WriteLn (y);
