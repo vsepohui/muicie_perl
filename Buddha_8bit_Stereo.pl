@@ -1,5 +1,7 @@
 #Buddha_8_Bit_Stereo
 
+# 8 Bit Stereo Distortion
+
 use 5.022;
 
 my $step = 5;
