@@ -16,4 +16,4 @@ $i = int $i;
 $o = $i / $step;
 say $o;
 
-# by Tovarisch Trunaev, 2025, Russia, Uray
+# by Tovarisch Trunaev, 2026, Russia, Uray
