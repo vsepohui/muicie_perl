@@ -1,7 +1,7 @@
 #skel
 
 # Prototype for future Firmware
-# May be used like a chage for about a bad Firmware
+# May be used like a chage for about on bad broken Firmware
 
 print <>;
 
