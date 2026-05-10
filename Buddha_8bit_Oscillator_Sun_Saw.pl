@@ -33,10 +33,10 @@ $offset = $t - $startime;
 
 $step = int ($offset / $length);
 if ($step % 2 == 0) {
-	$x = $offet - $step * $length;
+	$x = $offset - $step * $length;
 	$r = sqrt(1 - $offset * $offset);
 } else {
-	$x = $offet - $step * $length;
+	$x = $offset - $step * $length;
 	$r = -1 * sqrt(1 - $offset * $offset);
 }
 

@@ -7,10 +7,10 @@ use 5.022;
 my $step = 5;
 my ($i, $o);
 
-my $i = <>;
+$i = <>;
 chomp $i;
 
-$ *= $step;
+$i *= $step;
 $i = int $i;
 
 $o = $i / $step;
