@@ -7,6 +7,6 @@ echo Linking USSD
 OFS=$IFS
 IFS="
 "
-/usr/bin/ld.bfd -b elf64-x86-64 -m elf_x86_64     -s  -L. -o USSD -T link10933.res -e _start
+/usr/bin/ld.bfd -b elf64-x86-64 -m elf_x86_64     -s  -L. -o USSD -T link12106.res -e _start
 if [ $? != 0 ]; then DoExitLink USSD; fi
 IFS=$OFS

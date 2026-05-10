@@ -4,12 +4,12 @@ Var
     sign: string;
 Begin;
     ReadLn (signal);
-    RealLn (sign);
+    ReadLn (sign);
 
-    If (signal >= -1 AND signal <= 1) Then
-      WriteLn(signal);
+    If ((signal >= -1) AND (signal <= 1)) Then
+      WriteLn(signal)
     else if (signal > 1) Then
-        WriteLn(1);
+        WriteLn(1)
       else
         WriteLn(-1);
     WriteLn (sign);

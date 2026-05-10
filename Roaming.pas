@@ -19,12 +19,12 @@ begin
 	for j := 0 to 7 do
 	begin
 	  if (crc and $0001) <> 0 then
-		crc := (crc shr 1) xor $A001;
+		crc := (crc shr 1) xor $A001
 	  else
 		crc := crc shr 1;
 	end;
   end;
-  Result := crc;
+  CRC16 := crc;
 end;
 	
 Begin;
@@ -43,10 +43,9 @@ Begin;
 	b := FloatToStr (balance);
 	i := Pos (b, '.');
 	If (i = -1) Then
-		s := b  + '.';
+		s := b  + '.'
 	Else
 		s := b;
-	End;
 	
 	WriteLn (hex);
 	WriteLn (b);

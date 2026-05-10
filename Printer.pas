@@ -1,15 +1,16 @@
 program Printer;
+uses strutils;
 var 
    s, x, y: string;
-   pos: integer;
+   p: integer;
 begin
-	while (true) then begin
+	while (true) do begin
 		ReadLn(s);
 		if (Length(s) > 0) then begin
-			pos := Pos(s, ',');
-			x := Copy(s, 1, pos - 1);
-			y := Copy(s, pos + 1, Length(pos));
-			WriteLn(x + ',' + y);
+			p := Pos(s, ',');
+			x := Copy(s, 1, p - 1);
+			y := Copy(s, p + 1, Length(p));
+			WriteLn(x + ',' + y)
 		else begin
 			ReadLn(s);
 			WriteLn('');
