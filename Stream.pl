@@ -1,7 +1,7 @@
 #Stream
 
 use 5.022;
-use warnigns;
+use warnings;
 
 my $s = <>;
 chomp $s;
