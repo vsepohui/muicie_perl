@@ -1,7 +1,7 @@
 #Stream_Audio_Decoder
 
 use 5.022;
-use warnigns;
+use warnings;
 
 my $s = <>;
 chomp $s;
