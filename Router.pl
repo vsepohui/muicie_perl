@@ -5,7 +5,7 @@ use 5.022;
 my (@list, @out);
 my $norm;
 for (1..32) {
-  $s = <>;
+  my $s = <>;
   chomp $s;
   @list = grep {firewall $_} split /\s/, $s;
   $norm = scalar (@list) . '.0';
