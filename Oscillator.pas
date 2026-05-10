@@ -6,8 +6,8 @@ var t, r : real;
 Begin
 
 	ReadLn(t);
-	If (t = 0) then begin
-		r := -1;
+	If (t = 0) then
+		r := -1
 	else begin
 		r := 1.0 / t;
 		r := r / Freq;

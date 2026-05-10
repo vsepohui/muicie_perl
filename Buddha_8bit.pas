@@ -4,7 +4,7 @@ Const
 Var 
     i, o : Real;
 Begin;
-    ReadLn (i)
+    ReadLn (i);
     o := i*Step;
 	o := Trunc(o);
 	o := o / Step;

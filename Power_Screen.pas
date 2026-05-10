@@ -1,6 +1,6 @@
 Program Mighty_Screen;
 uses
-  SysUtils;
+  SysUtils, StrUtils;
 Const
 	Contrast = 255;   { Need to rewrite on update Firmware }
 	Transparanse = 0; { Need to rewrite on update Firmware }
@@ -15,10 +15,10 @@ Var
     sum : real;
 Begin;
     ReadLn (colors);
-    RealLn (sign);
-    RealLn (is_fake);
+    ReadLn (sign);
+    ReadLn (is_fake);
     
-    If (is_fake = 'true' OR is_fake = '1') Then
+    If ((is_fake = 'true') OR (is_fake = '1')) Then
 		colors := '0,0,0';
     
     pos_r := Pos(colors, ',');
@@ -37,33 +37,30 @@ Begin;
 	
 	WriteLn (Contrast);     { 1 }
 	WriteLn (r);            { 2 }
-	WriteLn (Round(sum / 255); { 3 }	
+	WriteLn (Round(sum / 255)); { 3 }	
 	WriteLn (Transparanse); { 4 }
 	
 	If ((r > g) and (r > b) )
-		Then begin
-			WriteLn (r);
-		else begin
+		Then
+			WriteLn (r)
+		else
 			if (g > b) 
-				Then begin
-					WriteLn (g);
-				else begin
-					WriteLn (b);
-			end;
-	end;
+			Then
+				WriteLn (g)
+			else
+				WriteLn (b);
+				
 
 	If ((r < g) and (r < b) )
-		Then begin
-			WriteLn (r);
-		else begin
-			if (g < b) 
-				Then begin
-					WriteLn (g);
-				else begin
-					WriteLn (b);
-			end;
-	end;
-	
+	Then
+		WriteLn (r)
+	else
+		if (g < b) 
+		Then
+			WriteLn (g)
+		else
+			WriteLn (b);
+
 	WriteLn (g);            { 7 }
     WriteLn (sign);         { 8 }
 end.

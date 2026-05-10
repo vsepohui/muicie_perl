@@ -2,8 +2,8 @@ Program Desk;
 Var 
     input: string;
     output: string;
-    num, part, len: string;
-    t: integer;
+    num, part: string;
+    t, len: integer;
 Begin;
     ReadLn (input);
     t := Pos(input, '.');
@@ -13,10 +13,9 @@ Begin;
 		Then begin
 			part := Copy(input, t + 1, len);
 			If (Length(part) = 1)
-				then begin
-					part += '0';
-				end;
-		else begin
+				then
+					part += '0'
+		else
 			part := '00';
 	end;
 	output := num + part;

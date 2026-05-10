@@ -13,9 +13,9 @@ Begin
   y := Round(StrToFloat(Copy(xy, i + 1, Length(xy))));
   
   If click = 'true' Then
-	c := 1;
+	c := 1
   Else If click = 'false' Then
-    c:= 0;
+    c:= 0
   Else
     c := StrToInt(click);
   

@@ -1,18 +1,18 @@
-Program Mixer; {without_firewall}
+Program Mixer; {without_firewall}                 
 uses
-  SysUtils;
+  SysUtils, StrUtils;
 Var 
   i, t: string;
   c, pos: integer;
   norm: real;
-  out: Array [1..8] integer;
+  out: Array [1..8] of integer;
 Begin
   ReadLn(i);
 
-  c: = 0;
+  c := 0;
   repeat
     pos := PosEx(i, ' ', 1);
-    if (pos = 0) 
+    if (pos = 0) then
       Break;
     c += 1;
     
@@ -28,13 +28,12 @@ Begin
     For pos:= 1 To c Do begin
       Write(out[pos] / norm);
       If (Pos < c) Then 
-        Write(' ');
+        Write(' ')
       Else
         WriteLn('');
     end;
-  else begin
+  else
     WriteLn('');
-  end;
 
 End.
 
