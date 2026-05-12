@@ -2,9 +2,9 @@
 
 use 5.022;
 
-my $freq = 250;
-my $SIM = 60;
-my $f = $freq / $SIM;
+my $freq = 49;
+
+my $f = $freq;
 my $r = 1;
 
 my ($t, $y);

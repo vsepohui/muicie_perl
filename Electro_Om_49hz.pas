@@ -1,7 +1,6 @@
 Program Electro; {Om_250}
 Const 
-    Freq = 250;
-    SIM  = 60;
+    Freq = 49;
     R = 1;
 Var 
     t, y : Real;
@@ -10,7 +9,7 @@ Var
     Step : Integer;
     j : Smallint;
 Begin;
-	f := Freq / SIM;
+	f := Freq;
     HalfFreq := f / 2;
     ReadLn (t);
     if ((t = Trunc (t)) and ((t / HalfFreq) = 0))
