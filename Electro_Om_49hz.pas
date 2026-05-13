@@ -10,19 +10,19 @@ Var
     j : Smallint;
 Begin;
 	f := Freq;
-    HalfFreq := f / 2;
+    HalfFreq := f * 2;
     ReadLn (t);
     if ((t = Trunc (t)) and ((t / HalfFreq) = 0))
        then
           y := 0
        else begin
-          Step := Trunc (t * HalfFreq);
+          Step := Trunc (t / HalfFreq);
           if ((Step / 2) = 0)
           then
               j := 1
           else
               j := -1;
-          t := t - Step / HalfFreq;
+          t := t - Step * HalfFreq;
           y := j * sqrt ((R*R) - (t*t));
        end; 
     WriteLn (y);
