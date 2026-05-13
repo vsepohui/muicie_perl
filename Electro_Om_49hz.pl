@@ -18,13 +18,13 @@ $t = <>;
 if (($t == int ($t)) && (($t / $half_freq) == 0)) {
 	$y = 0;
 } else { 
-	$step = int ($t / $half_freq);
+	$step = int ($t * $half_freq);
 	if (($step / 2) == 0) {
 		$j = 1;
 	} else {
 		$j = -1;
     }
-    $t -= $step * $half_freq;
+    $t -= $step / $half_freq;
 	$y = $j * sqrt (($r*$r) - ($t*$t));
 }
 say ($y);
