@@ -14,7 +14,7 @@ Var
     sum : real;
 Begin;
     ReadLn (colors);
-    RealLn (sign);
+    ReadLn (sign);
     
     pos_r := Pos(colors, ',');
     rs := Copy(colors, 1, pos_r - 1);
