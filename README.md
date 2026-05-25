@@ -37,8 +37,8 @@ Old code for Mighty Screen Chips Firmware (Was evoluted to Power Screen):
 
 Last Code, Refactored to New 250 Hz Om Mantra:
 
-* Electro_Om_250.pas - last release. Optimized by using buffer for preparing multipier of wave signal modulation)
-* Electro_Om_250.pl - Perl port of Electro_patch_v2.pas for CPU  
+* Electro_Om_49hz.pas - last release. Optimized by using buffer for preparing multipier of wave signal modulation)
+* Electro_Om_49hz.pl - Perl port of Electro_patch_v2.pas for CPU  
 
 * Time_Om_250.pas - Pascal code for Chips Radio-Stantion coders.
 * Time_Om_250.pl - Perl code for CPU Radio-Stantion coders.
@@ -77,15 +77,17 @@ SFX Pascal code for Chips & CPUs:
 
 Code for Sound Processing for CPU on Perl:
 
-* Mixer.pl - Code for Mixers and CISCOs
-* Mixes.pas - Code for Next-Generation of Chipses CISCOs
-* Router.pl - Abstract Router code for 32-channels!
-* Router.pas - Abstract Router for Next-generation of Chips Rounters for 32-channels!
+* Mixer_wo_firewall.pl - Code for Mixers and CISCOs
+* Mixer_wo_firewall.pas - Code for Next-Generation of Chipses CISCOs
+* Router_wo_firewall.pl - Abstract Router code for 32-channels!
+* Router_wo_firewall.pas - Abstract Router for Next-generation of Chips Rounters for 32-channels!
 
-Old router code, without firewall calling:
+Future code for Sound Processing for CPU on Perl:
 
-* old/Router_wo_firewall.pl
-* old/Router_wo_firewall.pas
+* old/Mixer.pl
+* old/Mixer.pas
+* old/Router.pl
+* old/Router.pas
 
 Code for Cashdesks on Perl (for CPU) and Pascal (for Chips):
 
@@ -111,8 +113,8 @@ TV Transmitter & Reciver:
 
 * TV_Transmitter.pas - basecode for Chips Firmwave TV Transmitter!
 * TV_Transmitter.pl - basecode for CPU Firmware TV Transmitter!
-* TV_Reciver.pas - basecode for Chips Firmware TV Reciever!
-* TV_Reciver.pl - basecode for CPU Firmware TV Reciever!
+* TV_Reciever.pas - basecode for Chips Firmware TV Reciever!
+* TV_Reciever.pl - basecode for CPU Firmware TV Reciever!
 
 Radio Transmitter & Reciever:
 
