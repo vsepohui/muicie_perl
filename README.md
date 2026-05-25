@@ -10,7 +10,11 @@ I'm an a Buddha Maytreya High Buddha.
 
 Me an author of many books with poutry and mind, and great teaching: "Teaching about Karma and Dharma"! By prediction of Buddha Hotey, his will coming back to the Earth for taking this teaching! I believe, than it's a me, really! I meditate much years in alone for making this mind!
 
-Teaching about Karma and Dharma (in automated transtale for Google.Translate) allowed at ./Teaching/TEACHING.txt on Russian, seek at https://trunaev.ry/books/
+Teaching about Karma and Dharma (in automated transtale for Google.Translate) allowed at:
+
+# Teaching:  ./Teaching/TEACHING.txt
+# Algorythm: ./Teaching/Algorythm.txt
+# : on Russian, seek at - https://trunaev.ru/books/
 
 Me create this README and Firmwares for saving a World in a Peace and a Rest! Use it!
 
