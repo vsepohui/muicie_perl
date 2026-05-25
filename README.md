@@ -1,41 +1,53 @@
 Hello, dears!
 
+This is README for about a Firmwares!
+
+# About a me, author
+
 I'm Ivan Trunaev, GPU Officer from Russia, Uray.
+
+I'm an a Buddha Maytreya High Buddha.
+
+Me an author of many books with poutry and mind, and great teaching: "Teaching about Karma and Dharma"! By prediction of Buddha Hotey, his will coming back to the Earth for taking this teaching! I believe, than it's a me, really! I meditate much years in alone for making this mind!
+
+Me create this README and Firmwares for saving a World in a Peace and a Rest! Use it!
+
+# Intro
 
 IF YOU FORGIVE GPU LICENSE, I NORIFY: "EVERYTHING BASED ON GPU LICENSE MUST BE OPEN-SOURCE (WITH FREE ORIGINAL, COMPILABLE CODE)"!.
 
 I'm still joy of Hardcode Open-Source, and keep: If you code based of my released, better, public your distribution in Open-Source kind of releasingship.
 
-What in my repository "mucie_perl"?
+# What in my repository "mucie_perl"?
 
 Modificated code for Chips Firmwares for Solar Elecro System Engines. 
 Old code, used all around by World using sin() function, and I feeled before I start to code, than it bad: because sin() is unlimited to conlulation, if you don't agree, I recommend you to teach of Mathematical Science!
  
-Code navigation:
+# Code navigation:
 
-Old Code for Electro Systems Chips and CPU on Pascal and Perl (Freq 80 Hz):
+## Old Code for Electro Systems Chips and CPU on Pascal and Perl (Freq 80 Hz):
 
 * old/Electro_patch_2025.pas - patch for old Moon Calendar (I increment Input Signal for 24 * 60 * 60 * 2 - daytimes in secronds multipiend on two)
 * old/Electro_patch_2025.pl - Perl port
 
-New, optimized code for Electro  Systems Chips and CPU on Pascal and Perl (Freq 120 Hz):
+## New, optimized code for Electro  Systems Chips and CPU on Pascal and Perl (Freq 120 Hz):
 
 * old/Electro_patch_v2.pas - last release. Optimized by using buffer for preparing multipier of wave signal modulation)
 * old/Electro_patch_v2.pl - Perl port of Electro_patch_v2.pas for CPU  
 * old/Electro_patch_2025_v2.pas - last release of version of Firmware for old Moon Calendar (looking patched Electro_patch_v2.pas).
 * old/Electro_patch_2025_v2.pl - Perl port of Electro_patch_2025_v2.pas for CPU
 
-Basecode for Radio-Stantion coders for Chips and CPU on Pascal and Perl (Freq 120 Hz):
+## Basecode for Radio-Stantion coders for Chips and CPU on Pascal and Perl (Freq 120 Hz):
 
 * old/Time.pas - Pascal code for Chips Radio-Stantion coders.
 * old/Time.pl - Perl code for CPU Radio-Stantion coders.
 
-Old code for Mighty Screen Chips Firmware (Was evoluted to Power Screen):
+## Old code for Mighty Screen Chips Firmware (Was evoluted to Power Screen):
 
 * old/Mighty_Screen.pas - basecode for Firmware of Mighty Screens!
 * old/Mighty_Screen.pl - same code for CPU Video Cards (LOL!)
 
-Last Code, Refactored to New 250 Hz Om Mantra:
+## Last Code, Refactored to New 250 Hz Om Mantra:
 
 * Electro_Om_49hz.pas - last release. Optimized by using buffer for preparing multipier of wave signal modulation)
 * Electro_Om_49hz.pl - Perl port of Electro_patch_v2.pas for CPU  
@@ -44,7 +56,7 @@ Last Code, Refactored to New 250 Hz Om Mantra:
 * Time_Om_250.pl - Perl code for CPU Radio-Stantion coders.
 
 
-Code for Sound Systems (for SIM (Seconds in minute) == 60):
+## Code for Sound Systems (for SIM (Seconds in minute) == 60):
 
 * Sound.pas - Sound System code for Chips
 * Sound.pl - Sound System code for CPU's
@@ -52,78 +64,78 @@ Code for Sound Systems (for SIM (Seconds in minute) == 60):
 * Sound_Card.pas - Firmware for Chips Sound Cards with Compressor!
 * Sound_Card.pl - Firmware for CPUs Sound Cards with Compressor!
 
-Code for Keyboards:
+## Code for Keyboards:
 
 * Keyboard.pl - Basecode for Chips Keyboards
 * Keyboard.pas - Basecode for CPUs Keyboards
 
-Code for Mouse:
+## Code for Mouse:
 
 * Mouse.pl - Basecode for Chips Mouse
 * Mouse.pas - Basecode for CPUs Mouse
 
 
-Code for Touch Screen:
+## Code for Touch Screen:
 
 * Touch_Screen.pl - Firmware Code for CPUs Touch Screen
 * Touch_Screen.pas - Firmware Code for Chips Touch Scren
 
-SFX Pascal code for Chips & CPUs:
+## SFX Pascal code for Chips & CPUs:
 
 * Buddha_8bit.pas - Code for 8bit Sound Processing
 * Buddha_8bit_Oscillator_Sun.pl - Code for Sun Oscillator signal generator (first code was on Chuck - chuck/imp.ck)
 * Buddha_8bit_Oscillator_Sun_Saw.pl - Code for Sun Saw Oscillator signal generator  (first code was on Chuck - chuck/imp-fix.ck)
 
 
-Code for Sound Processing for CPU on Perl:
+## Code for Sound Processing for CPU on Perl:
 
 * Mixer_wo_firewall.pl - Code for Mixers and CISCOs
 * Mixer_wo_firewall.pas - Code for Next-Generation of Chipses CISCOs
 * Router_wo_firewall.pl - Abstract Router code for 32-channels!
 * Router_wo_firewall.pas - Abstract Router for Next-generation of Chips Rounters for 32-channels!
 
-Future code for Sound Processing for CPU on Perl:
+## Future code for Sound Processing for CPU on Perl:
 
 * old/Mixer.pl
 * old/Mixer.pas
 * old/Router.pl
 * old/Router.pas
 
-Code for Cashdesks on Perl (for CPU) and Pascal (for Chips):
+## Code for Cashdesks on Perl (for CPU) and Pascal (for Chips):
 
 * Desk.pl - new modern code for concatinating integer part on bill with partincal!
 * Desk.pas - modern Pascal code for billing!
 
-Code for Power Screen Chips Firmware:
+## Code for Power Screen Chips Firmware:
 
 * Power_Screen.pas - basecode for Firmware of Power Screens!
 * Power_Screen.pl - same code for CPU Video Cards (LOL!)
 
-Code for Water System:
+## Code for Water System:
 
 * Water_System.pas - basecode for Chips Firmware of Water System!
 * Water_System.pl - basecode for CPU Firmware of Water System!
 
-Code for Electro Power Suppliers:
+## Code for Electro Power Suppliers:
 
 * Electro_Power_Supplier.pas - basecode for Chips Firmware of Electro Power Supplier!
 * Electro_Power_Supplier.pl - basecode for CPU Firmware of Electro Power Supplier!
 
-TV Transmitter & Reciver:
+## TV Transmitter & Reciver:
 
 * TV_Transmitter.pas - basecode for Chips Firmwave TV Transmitter!
 * TV_Transmitter.pl - basecode for CPU Firmware TV Transmitter!
 * TV_Reciever.pas - basecode for Chips Firmware TV Reciever!
 * TV_Reciever.pl - basecode for CPU Firmware TV Reciever!
 
-Radio Transmitter & Reciever:
+## Radio Transmitter & Reciever:
 
 * Radio_Transmitter.pas - basecode for Chips Firmware Radio Transmitter!
 * Radio_Transmitter.pl - basecode for CPU Firmware Radio Transmitter!
 * Radio_Reciever.pas - basecode for Chips Firmware Radio Reciever!
 * Radio_Reciever.pl - basecode for CPU Firmware Radio Reciever!
 
-Stream & Stream Decoder & Stream Audio & Stream Audio Decoder:
+## Stream & Stream Decoder & Stream Audio & Stream Audio Decoder:
 
 * Stream.pas - basecode for Chips Firmware Stream!
 * Stream.pl - basecode for CPU Firmware Stream!
@@ -134,29 +146,29 @@ Stream & Stream Decoder & Stream Audio & Stream Audio Decoder:
 * Stream_Audio_Decoder.pas - basecode for Chips Firmware Stream Audio Decoder!
 * Stream_Audio_Decoder.pl - basecode for CPU Firmware Stream Audio Decoder!
 
-Roaming & Roaming Reciever:
+## Roaming & Roaming Reciever:
 
 * Roaming.pas - basecode for Chips Firmware Roaming!
 * Roaming.pl - basecode for CPU Firmware Roaming Reciever!
 * Roaming_Reciever.pas - basecode for Chips Firmware Roaming!
 * Roaming_Reciever.pl - basecode for CPU Firmware Roaming Reciever!
 
-SMS:
+## SMS:
 
 * SMS.pas - basecode for Chips Firmware SMS!
 * SMS.pl - basecode for CPU Firmware SMS!
 
-USSD:
+## USSD:
 
 * USSD.pas - basecode for Chips Firmware USSD!
 * USSD.pl - basecode for CPU Firmware USSD!
 
-GSM:
+## GSM:
 
 * GSM.pas - basecode for Chips Firmware GSM!
 * GSM.pl - basecode for CPU Firmware GSM!
 
-Code for Microwave Oven:
+## Code for Microwave Oven:
 
 * Microwave_Oven.pl - Basecode for Chips Microwave Oven
 * Microwave_Oven.pas - Basecode for CPUs Microwave Oven
