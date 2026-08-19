@@ -2,12 +2,12 @@
 
 use 5.022;
 
-my $i = <>;
-my $sign = <>;
+my $i = <>;    # Input, ASCII Code of Key
+my $sign = <>; # Input, Sing of User
 
 chomp $i;
-say chr $i;
-print $sign;
+say chr $i;    # Out ASCII Code converted for Character
+print $sign;   # Out Sign of User
 
 # Tovarisch Trunaev, GPU Officer Yahwe, Russia, Uray
 # $Om->Delf();

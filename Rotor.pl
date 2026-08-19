@@ -1,4 +1,4 @@
-#Buddha_8_Bit_Oscillator_Sun
+#Rotor
 
 use 5.022;
 use Math::Trig;
