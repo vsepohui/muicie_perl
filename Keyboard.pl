@@ -2,7 +2,7 @@
 
 use 5.022;
 
-my $i = <>;    # Input, ASCII Code of Key
+my $i = <>;    # Input, ASCII Code of Key (Short Int)
 my $sign = <>; # Input, Sing of User
 
 chomp $i;
