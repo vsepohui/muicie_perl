@@ -20,7 +20,7 @@ if (($t == int ($t)) && (($t / $half_freq) == 0)) {
 	$y = 0;
 } else { 
 	$step = int ($t / $half_freq);
-	if (($step / 2) == 0) {
+	if (($step % 2) == 0) {
 		$j = 1;
 	} else {
 		$j = -1;

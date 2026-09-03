@@ -32,15 +32,15 @@ $startime = $memory;
 
 $offset = $t - $startime;
 
-$step = int ($offset / $length);
-if ($step % 4 == 0) {
-	$x = $offset - $step * $length;
-	$r = sqrt(1 - $offset * $offset);
+my $step = int $offset;
+if ($step % 2 == 0) {
+	$x = $offset - $step;
+	$r = sqrt(1 - $x * $x);
 } else {
-	$x = $offset - $step * $length;
-	$r = -1 * sqrt(1 - $offset * $offset);
+	$x = $offset - $step;
+	$r = -1 * sqrt(1 - $x * $x);
 }
-
+	
 say $r;
 
 # by Tovarisch Trunaev, 2025, Russia, Uray
