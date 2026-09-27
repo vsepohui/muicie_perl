@@ -1,4 +1,5 @@
-#Keyboard
+# Keyboard
+# Recode input ASCII-Code of Key to Char (Int2char)
 
 use 5.022;
 
