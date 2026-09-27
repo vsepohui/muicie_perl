@@ -2,8 +2,8 @@
 
 use 5.022;
 
-my $contrast = 255;   # Need to rewrite on update Firmware
-my $transparanse = 0; # Need to rewrite on update Firmware
+my $contrast = 255;   # Contrast constant: need to rewrite on update Firmware if need to change, hardcode
+my $transparanse = 0; # Contrast constant: need to rewrite on update Firmware if need to change, hardcode
 
 my $colors;
 my $sign;
