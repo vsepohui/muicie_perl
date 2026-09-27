@@ -1,5 +1,5 @@
 # Router [without_firewall]
-# Mix and normalize 32 channels of noisy signals 
+# Normalize signals in 32 Channels 
 
 use 5.022;
 
