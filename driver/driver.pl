@@ -1,3 +1,3 @@
-$| = 1; # Autoflush: push all interrupt from sockets
+$| = 1; # Autoflush: Push all interrupt to sockets
 
 # Ivan Trunaev, Yahwe, Russia, Uray
