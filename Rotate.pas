@@ -2,6 +2,7 @@ program Rotate;
 var
    i: integer;
 begin
+  { Output same that input }
   ReadLn(i);
   WriteLn(i);
 End.
