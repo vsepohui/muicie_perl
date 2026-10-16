@@ -1,6 +1,6 @@
 Program Time;
 Const 
-   Freq = 250;
+   Freq = 49;
    Sec_in_min = 60;
 Var 
    o, t : Real;
