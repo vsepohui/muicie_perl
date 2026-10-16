@@ -28,25 +28,33 @@ begin
 end;
 	
 Begin;
+	{ Input }
     ReadLn (id);
     ReadLn (balance);
     
+    { $s for clean $id }
 	s := '';
 	
+	{ Remove noisy symbols from id, copy result to $s }
 	for i := 1 to Length(id) do
 		if id[i] in ['0'..'9', '-', '#', 'A', 'C', 'E', 'a' .. 'z'] then
 			s := s + id[i];
 
+	{ Calc crc of clean $id }
     crc := CRC16(s);
+    { Calc hex of crc of clean id }
     hex := IntToHex (crc);
 	
+	{ Convertin balance float to string }
 	b := FloatToStr (balance);
+	{ Seeking for '.' }
 	i := Pos (b, '.');
-	If (i = -1) Then
-		s := b  + '.'
+	If (i = 0) Then  { If not found }
+		s := b  + '.' { Add ending '.' }
 	Else
-		s := b;
+		s := b;       { Else, stay same }
 	
+	{ Output }
 	WriteLn (hex);
 	WriteLn (b);
 end.
