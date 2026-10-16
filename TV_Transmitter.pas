@@ -1,12 +1,15 @@
 Program TV_Transmitter;
 Const 
-	Stop = '-'; // -1 HARDCODE TO FIRST CHAR
+	Stop = '-';
 Var 
-    signal : string;
+    signal, sign : string;
 Begin;
-    ReadLn (signal)
-    IF (signal[1] <> Stop) Then
+    ReadLn (signal);
+    ReadLn (sign);
+    IF (signal <> Stop) Then begin
 		WriteLn (signal);
+		WriteLn (sign);
+	end;
 end.
 
 { by Tovarisch Trunaev, 2026, Russia, Uray }

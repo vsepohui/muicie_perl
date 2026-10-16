@@ -9,7 +9,7 @@ my $sign   = <>;
 # Chomp endline
 chomp $signal;  
 
-# If signal ne '0'
+# If signal ne '-'
 if ($signal ne '-') {
 	# Output signal
 	say $signal;

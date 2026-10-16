@@ -3,12 +3,17 @@
 use 5.022;
 use warnings;
 
+# Input
 my $signal = <>;
-chomp $signal;
+my $sign   = <>;
+# Chomp endline
+chomp $signal; 
 
-# if ($signal ne '-1') HARDCODE
-if (substr($signal, 0, 1) ne '-') {
+# If signal ne '-'
+if ($signal ne '-') {
+	# Output signal
 	say $signal;
+	print $sign;
 }
 
 1;
