@@ -4,9 +4,9 @@ uses
 Var 
     signal : string;
 Begin;
-	ReadLn(signal);
-	If (Length(signal) > 0) Then 
-		WriteLn (StrToFloat(signal));
+	ReadLn(signal); { Input } 
+	If (Length(signal) > 0) Then  { If input }
+		WriteLn (StrToFloat(signal)); { Convert to float and Output }
 end.
 
  

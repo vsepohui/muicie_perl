@@ -3,11 +3,11 @@
 use 5.022;
 use warnings;
 
-my $signal = <>;
-chomp $signal;
+my $signal = <>;         # Input 
+chomp $signal;           # Chomp endline
 
-if (length($signal)) {
-	say +$signal;
+if (length($signal)) {   # If input
+	say +$signal;        # Conver to number and output
 }
 
 1;
