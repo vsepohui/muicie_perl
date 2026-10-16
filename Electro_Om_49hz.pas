@@ -1,4 +1,4 @@
-Program Electro; {Om_250}
+Program Electro; {Om_49hz}
 Const 
     Freq = 49;
     R = 1;

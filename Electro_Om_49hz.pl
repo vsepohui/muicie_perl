@@ -1,4 +1,4 @@
-#Electro [Om_250]
+#Electro [Om_49hz]
 
 use 5.022;
 
