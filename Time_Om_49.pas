@@ -10,7 +10,7 @@ Begin
    ReadLn(t);
    if (t > 0) 
       then
-          o := f / t;
+          o := t / f;
       else 
           o := -1;
       end;

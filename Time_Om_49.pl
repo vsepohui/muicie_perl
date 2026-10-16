@@ -12,7 +12,7 @@ my $o;
 my $t = <>;
  
 if ($t > 0) {
-    $o = $freq / $t;
+    $o = $t / $freq;
 } else {
     $o = -1;
 }
