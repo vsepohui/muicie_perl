@@ -4,20 +4,26 @@ use 5.022;
 
 my ($signal, $sign);
 
-$signal = <>;
+# Input
+$signal = <>; 
 $sign = <>;
+# Chomp signal
 chomp $signal;
 
+# If signal between [-1..1]
 if (($signal >= -1) && ($signal <= 1)) {
-  say $signal;
+	# Output signal
+	say $signal;
 } else {
-  if ($signal > 1) {
-    say 1;
-  } else {
-    say -1;
-  }
+	# Bus: protect of overloading, and output limits!
+	if ($signal > 1) {
+		say 1;
+	} else {
+		say -1;
+	}
 }
 
+# Output sign
 print $sign;
 
 # by Tovarisch Trunaev, 2025, Russia, Uray
