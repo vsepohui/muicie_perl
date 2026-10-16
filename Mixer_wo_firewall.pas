@@ -5,34 +5,46 @@ Var
   i, t: string;
   c, pos: integer;
   norm: real;
-  out: Array [1..8] of integer;
+  out: Array [1..8] of real;
 Begin
-  ReadLn(i);
+  ReadLn(i); { Input string with signals }
 
-  c := 0;
+  { Starting parse }
+  c := 0; { $c meaning number of current parset signal }
   repeat
-    pos := PosEx(i, ' ', 1);
-    if (pos = 0) then
+    { Seeking for fisrt space in $i }
+    pos := Pos(i, ' '); 
+    { If no spaceses, end end parsing }
+    if (pos = 0) then 
       Break;
-    c += 1;
     
+    { Copy to $i data from begin of string to $pos - 1, first signal }
     t := Copy(i, 1, pos - 1);
+    { Redefine $i by tail of seeked }
     i := Copy(i, pos + 1, Length(i));
     
-    out[c] := StrToInt(t);
+    { Save $t }
+    out[c] := StrToFloat(t);
+    
+    { Inc $t }
 	c += 1;
-  until (True);
+  until (True); { Endless loop, beak in line 19 }
   
+  { If got signals }
   if (c > 0) then begin
+    { Setup normalizer }
     norm := c;
+    { Loop all signals }
     For pos:= 1 To c Do begin
+      { Normilize and output }
       Write(out[pos] / norm);
+      { If not last signal }
       If (Pos < c) Then 
-        Write(' ')
-      Else
-        WriteLn('');
+        Write(' ') { Output space delimeter withoun endline }
+      Else   { If last }
+        WriteLn(''); { Output newline }
     end;
-  else
+  else  { If not signals, output empty }
     WriteLn('');
 
 End.
