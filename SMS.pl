@@ -5,15 +5,19 @@ use warnings;
 
 use Digest::CRC qw(crc16);
 
-my $msg = <>;
-chomp $msg;
+my $msg = <>;  # Input message
+chomp $msg;    # Chomp endline
 
+# If message longer that 160 characters
 if (length ($msg) > 160) {
+	# Trim it!
 	$msg .= substr ($msg, 0, 160);
 }
 
+# Calc sing: hex crc16 of crc16 of message
 my $hex = sprintf("%X", crc16 ($msg));
 
+# Output
 say $msg;
 say $hex;
 

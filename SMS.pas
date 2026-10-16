@@ -25,13 +25,16 @@ begin
 end;
 	
 Begin;
-    ReadLn (msg);
+    ReadLn (msg); { Input message } 
     
+    { If message longer that 160 characters }
     if (Length(msg) > 160) Then
-		msg := Copy(msg, 1, 160);
+		msg := Copy(msg, 1, 160); { Trim it! }
     
-    hex := IntToHex(CRC16(msg));
+    { Calc sing: hex crc16 of crc16 of message }
+    hex := IntToHex(CRC16(msg)); 
 	
+	{ Output }
 	WriteLn (msg);
 	WriteLn (hex);
 end.
