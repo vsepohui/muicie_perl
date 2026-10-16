@@ -7,9 +7,12 @@ Const
 Var 
     w : Real;
 Begin;
+	{ Input 
     ReadLn (w)
+    { If power level < 0.42 set output power = 100% }
     IF (w < Min) Then
 		WriteLn (MaxPower);
+		{ If power level < 0.81 set output power = 81% }
 	ELSE IF (w < Median) Then
 		WriteLn (MinPower);
 end.
