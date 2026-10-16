@@ -5,19 +5,26 @@ Var
 	id, freq_cut : string;
 	signal, freq: real;
 Begin;
-    ReadLn (transmit);
-	If (transmit = 1) Then begin
-		ReadLn (id);
-		ReadLn (signal);
+    ReadLn (transmit); { Input flag of transmittion }
+	If (transmit = 1) Then begin { If transmission } 
+		ReadLn (id);      { Input Device ID}
+		ReadLn (signal);  { Input signal }
 		
-		RandSeed := StrToInt('$' + id);
+		{ Setup Random Seed }
+		{ '$' in prepend is mark of Hex for StrToInt }
+		RandSeed := StrToInt('$' + id); 
 		
+		{ Calculating freq for transmission }
 		freq := Random(440000) / 10;
 		
+		{ $freq_cut is string with $freq }
 		freq_cut := FloatToStr (freq);
-		If (Pos (freq_cut, '.') = -1) Then
-			freq_cut += '.';
 		
+		{ $freq_cut = $freq, int $freq + '.' + $freq, if without fractional part }
+		If (Pos (freq_cut, '.') = -1) Then 
+			freq_cut += '.' + freq;
+			
+		{ Output }		
 		WriteLn (freq);
 		WriteLn (signal);
 		WriteLn (freq_cut);
