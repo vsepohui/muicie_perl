@@ -2,7 +2,7 @@
 
 use 5.022;
 
-my $sum = <>;   # Get bill in string "%%.%?%?"
+my $sum = <>;   # Read bill in string "%%.%?%?"
 chomp $sum;     # chomp endline
 
 my ($int, $part) = split /\./, $sum;   # split by separator "."
