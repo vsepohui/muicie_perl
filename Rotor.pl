@@ -9,18 +9,27 @@ my $sim = 60.0; # Seconds in minute
 my $t; # Input, timestamp
 my $alpha; # angle
 
-$t = <>;
-chomp $t;
+$t = <>;  # Input 
+chomp $t; # Chomp endline
 
+# Number of step in harmonic function "Sun" 
+# (Circles: f(x) = +/-*sqrt(1-y*y);
 $step = int ($t * $sim / $freq);
 
-if ($step % 4 == 0) {
-	$x = $t - $step * $freq / $sim;
-} else {
-	$x = $t- $step * $freq / $sim;
+my $j;
+# If it odd, means that we on "upper" part of circle! 
+if ($step % 2 == 0) {
+	$j = 1;
+} else { # If in evene, on "downer" part of circle!
+	$j = -1;
+	
 }
 
-my $alpha = acos(1 / $x);
+# Calc f(x)
+my $y = $j * ($t - $step * $freq / $sim);
+
+# Calc alge
+my $alpha = asin(1 / $y);
 
 say $alpha;
 

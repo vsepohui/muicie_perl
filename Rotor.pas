@@ -6,21 +6,30 @@ const
 var 
 	t: Real;      // Input, timestamp
 	aplaha: Real; // Arngle
-	step: integer;
-	x: Real;
+	step, j: integer;
+	y: Real;
 
 begin
-	readln(t);
+	readln(t);  { Input }
 
-	step := Round(t * SIM / Freq);
-
-	if (step mod 4 = 0)  then
-		x := t - step * Freq / SIM;
+	{ Number of step in harmonic function "Sun" }
+	{ (Circles: f(x) = +/-*sqrt(1-y*y);}
+	step := Round(t * SIM / Freq);	
+	
+	if (step mod 2 = 0)  then
+		{ If it odd, means that we on "upper" part of circle! }
+		j := 1;
 	else
-		x := -1 * (t - step * Freq / SIM);
+		{ If in evene, on "downer" part of circle! }
+		j := -1;
+		
+	{ Calc f(x) }
+	y := j * (t - step * Freq / SIM);
+	
+	{ Calc angle }
+	alpha := asin(1 / y);
 
-	alpha := acos(1 / x);
-
+	{ Output }
 	writeln (alpha)
 
 end.
