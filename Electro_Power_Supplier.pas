@@ -4,21 +4,21 @@ uses
 Var 
     s, out : string;
     i : integer;
-    finish : boolean;
 Begin;
-	ReadLn(s);
-	finish := false;
+	ReadLn(s); { Input power value }
 	
-	for i := 1 to Length(s) do
+	{ Parsing loop, all characters in string }
+	for i := 1 to Length(s) do 
 	begin
+	    { If character is digit }
 		if s[i] in ['0'..'9'] then
 		begin
+		    { Copy all data from this charater to end to $out }
 			out := Copy (s, i, Length(s));
-			finish := true;
-		end;
-		if (finish) then
 			Break;
+		end;
 	end;
+	{ Convert to Float, and Output data }
 	WriteLn (StrToFloat(out));
 end.
 
