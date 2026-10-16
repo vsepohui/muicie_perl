@@ -6,7 +6,7 @@ Var
    o, t : Real;
    f : Real;
 Begin
-   f := Freq * Sec_in_min;
+   f := Freq / Sec_in_min;
    ReadLn(t);
    if (t > 0) 
       then

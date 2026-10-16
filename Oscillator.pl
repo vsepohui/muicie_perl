@@ -2,21 +2,17 @@
 
 use 5.022;
 
-my $freq = 25.0;
+my $freq = 49.0 / 60;
 
-my ($t, $r);
-
-$t = <>;
+my $t = <>;
 chomp $t;
 
 if ($t == 0) {
-	$r = -1;
+	$t = -1;
 } else {
-	$r = 1.0 / $t;
-	$r = ($r / $freq);
-	$r /= 4.0;
+	$t /= $freq;
 }
 
-say $r;
+say $t;
 
 # by Tovarisch Trunaev, 2025, Russia, Uray

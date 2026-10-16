@@ -1,19 +1,18 @@
 program Oscillator;
 
-const Freq = 25.0;
-var t, r : real;
+const Freq = 49;
+	  SIM  = 60;
+var t, f : real;
 
 Begin
-
+	f := Freq / SIM;
 	ReadLn(t);
 	If (t = 0) then
-		r := -1
+		t := -1
 	else begin
-		r := 1.0 / t;
-		r := r / Freq;
-		r := r / 4.0;
+		t := t / f;
 	end;
-	WriteLn(r);
+	WriteLn(t);
 End.
 
 {by Tovarisch Trunaev, 2025, Russia, Uray}
