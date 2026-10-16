@@ -1,22 +1,18 @@
 program Printer;
 uses strutils;
 var 
-   s, x, y: string;
-   p: integer;
+   s: string;
 begin
-	while (true) do begin
-		ReadLn(s);
-		if (Length(s) > 0) then begin
-			p := Pos(s, ',');
-			x := Copy(s, 1, p - 1);
-			y := Copy(s, p + 1, Length(p));
-			WriteLn(x + ',' + y)
-		else begin
-			ReadLn(s);
-			WriteLn('');
-			ReadLn(s);
-			WriteLn(s);
-			break;
+	while (true) do begin { Endless loop }
+		ReadLn(s);        { Input $s }
+		if (Length(s) > 0) then begin { If input }
+			WriteLn(s);   { Output same }
+		else begin        { Else }
+			ReadLn(s);    { Input one more line }
+			WriteLn('');  { Output endline }
+			ReadLn(s);    { Input $s }
+			WriteLn(s);   { Output same }
+			break;        { End the loop }
 		end;
 	end;
 end.
