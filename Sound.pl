@@ -2,7 +2,7 @@
 
 use 5.022;
 
-my $freq = 250.0;
+my $freq = 49.0;
 my $SIM = 60.0;
 my ($t, $a, $r);
 

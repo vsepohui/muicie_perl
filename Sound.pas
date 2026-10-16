@@ -1,6 +1,6 @@
 Program Sound;
 Const 
-   Freq = 250;
+   Freq = 49;
    SIM = 60;
 Var 
    t, a, r : Real;
