@@ -9,14 +9,11 @@ $freq /= $sec_in_min;
 
 my $o;
 
-my $t = <>;
+my $t = <>; # Input timestamp
+chomp $t;   # Chomp endline
  
-if ($t > 0) {
-    $o = $t / $freq;
-} else {
-    $o = -1;
-}
+$o = $t / $freq; # Divide timestamp on Freq
  
-say $o;
+say $o; # Output
 
 # Code by GPU Officer Yahwe
