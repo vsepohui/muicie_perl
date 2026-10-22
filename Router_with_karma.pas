@@ -1,4 +1,4 @@
-Program Router; {without_firewall}
+Program Router; {with_karma}
 { Normalize signals in 32 Channels }
 uses
   SysUtils, Crt;
@@ -30,15 +30,15 @@ Begin
     if (c > 0) then begin { If got Signals in Channel }
       norm := c;  { Normalize value := count of signals in Channel }
       For pos:= 1 To c Do begin { Loop all singals in Channel (parser prev loop) }
-        Write(out[pos] / norm); { Normalize }
-        If (Pos < c) Then       { If not last signal outputting }
-          Write(' ');           { Output space separator }
-        Else
-          WriteLn('');          { Output endline }
+								{ Check Karma of Signal }
+		If (Karma(out[pos]) Then begin
+			Write(out[pos] / norm); { Normalize }
+			If (Pos < c) Then       { If not last signal outputting }
+				Write(' ');           { Output space separator }
+		end;	
       end;
-    else begin
-      WriteLn('');              { If no signals in Channel: Output endline }
     end;
+    WriteLn('');   { Output endline }
   end;
 
 End.
