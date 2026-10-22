@@ -10,7 +10,7 @@ my @out;
 if ($norm) {                       # If got signals
 	                               # Filtering signals only with Good Karma
 	                               # And normalize all signals by $norm
-	@out = map {$_ / $norm} grep {karma $_ } @list; 
+	@out = map {$_ / $norm} grep {karma ($_) >= 0} @list; 
 	say join " ", @out;            # Output normalized data
 } else {
 	say '';                        # If not signals, output empty

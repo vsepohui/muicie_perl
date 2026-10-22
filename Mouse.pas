@@ -10,7 +10,7 @@ Begin
   ReadLn(sign);
   
   { If Good Karma of Mouse Action ...}
-  If (Karma(xy + LineEnding + click)) then begin 
+  If (Karma(xy + LineEnding + click) >= 0) then begin 
 	  { Parse xy ... }
 	  { Seeking to a separator ',' }
 	  i := Pos(xy, ',');

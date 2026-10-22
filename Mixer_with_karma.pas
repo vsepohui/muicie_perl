@@ -37,7 +37,7 @@ Begin
     { Loop all signals }
     For pos:= 1 To c Do begin
 	  { Checking for Good Karma of Signal }
-	  If (Karma(out[pos]) then begin
+	  If (Karma(out[pos]) >= 0) then begin
 		{ Normilize and output }
 		Write(out[pos] / norm);
 		{ If not last signal }

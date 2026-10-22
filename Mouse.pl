@@ -8,7 +8,7 @@ my $click = <>;
 my $sign = <>;
 
 # If Good Karma of Mouse Action...
-if (Karma($xy . $click)) {
+if (Karma($xy . $click) >= 0) {
 	# Chomp endlines
 	chomp $xy;
 	chomp $click;

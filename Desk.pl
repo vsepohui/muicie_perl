@@ -6,7 +6,7 @@ my $sum = <>;   # Read bill in string "%%.%?%?"
 chomp $sum;     # chomp endline
 
 # Checking Karma of Sum...
-if (Karma($sum)) {
+if (Karma($sum) >= 0) {
 	my ($int, $part) = split /\./, $sum;   # split by separator "."
 
 	# if fractional part of a number not specified, set in "00"

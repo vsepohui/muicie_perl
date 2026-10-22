@@ -9,7 +9,7 @@ Begin
   ReadLn(sign);  { Input Sing }
   
   { If Good Karma of Key }
-  if (Karma(i)) then begin
+  if (Karma(i) >= 0) then begin
 	c := chr(i);   { Integer 2 Char }
 	WriteLn(c);    { Output Char }
 	WriteLn(sign); { Output Sign }

@@ -14,7 +14,7 @@ for (1..32) {
 	                              # Pass signal only with Good Karma,
 	                              # mormalize all signals by $norm 
 	                              # - it's count of signals in channel
-     @out = map {$_ / $norm} grep {karma $_} @list; 
+     @out = map {$_ / $norm} grep {karma ($_) >= 0} @list; 
     say join " ", @out;           # Output Channell
   } else { 
     say '';                       # If no signals in Channel

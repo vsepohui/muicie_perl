@@ -9,7 +9,7 @@ my $sign = <>; # Input, Sing of User
 chomp $i;
 
 # If Good Karma of Key
-if (karma ($i) {
+if (karma ($i) >= 0) {
 	say chr $i;    # Out ASCII Code converted for Character
 	print $sign;   # Out Sign of User
 }

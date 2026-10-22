@@ -6,7 +6,7 @@ my @i = <>;         # Get all input
 my $sign = pop @i;  # Pop last from input to $sign
 
 # If Good Karma of Touch Action...
-if (Karma(join '', @i)) {
+if (Karma(join '', @i) >= 0) {
 	# Process input
 	for (@i) {
 	  chomp; # Chomp endline

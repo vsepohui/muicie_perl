@@ -31,7 +31,7 @@ Begin
       norm := c;  { Normalize value := count of signals in Channel }
       For pos:= 1 To c Do begin { Loop all singals in Channel (parser prev loop) }
 								{ Check Karma of Signal }
-		If (Karma(out[pos]) Then begin
+		If (Karma(out[pos]) >= 0) Then begin
 			Write(out[pos] / norm); { Normalize }
 			If (Pos < c) Then       { If not last signal outputting }
 				Write(' ');           { Output space separator }

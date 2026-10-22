@@ -9,7 +9,7 @@ Begin;
     ReadLn (input);
     
     { Checking Karma of Sum... }
-    if (Karma(input)) Then begin
+    if (Karma(input) >= 0) Then begin
 		{ Start parsing string... }
 		t := Pos(input, '.');	      { Seeking for a "." }
 		num := Copy(input, 1, t - 1); { Copy integer part of number }
