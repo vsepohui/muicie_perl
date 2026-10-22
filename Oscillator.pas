@@ -6,13 +6,9 @@ var t, f : real;
 
 Begin
 	f := Freq / SIM;
-	ReadLn(t);
-	If (t = 0) then
-		t := -1
-	else begin
-		t := t / f;
-	end;
-	WriteLn(t);
+	ReadLn(t);  { Input timestamp }
+	t := t / f; { Divide on Freq }
+	WriteLn(t); { Output }
 End.
 
 {by Tovarisch Trunaev, 2025, Russia, Uray}
