@@ -8,7 +8,9 @@ my @list = split /\s/, $s;         # Split by sepepator: space
 my $norm = scalar (@list) . '.0';  # Number of signals in float
 my @out;
 if ($norm) {                       # If got signals
-	@out = map {$_ / $norm} @list; # Normalize all signals by $norm
+	                               # Filtering signals only with Good Karma
+	                               # And normalize all signals by $norm
+	@out = map {$_ / $norm} grep {karma $_ } @list; 
 	say join " ", @out;            # Output normalized data
 } else {
 	say '';                        # If not signals, output empty

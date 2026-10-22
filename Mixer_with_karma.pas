@@ -36,17 +36,17 @@ Begin
     norm := c;
     { Loop all signals }
     For pos:= 1 To c Do begin
-      { Normilize and output }
-      Write(out[pos] / norm);
-      { If not last signal }
-      If (Pos < c) Then 
-        Write(' ') { Output space delimeter withoun endline }
-      Else   { If last }
-        WriteLn(''); { Output newline }
+	  { Checking for Good Karma of Signal }
+	  If (Karma(out[pos]) then begin
+		{ Normilize and output }
+		Write(out[pos] / norm);
+		{ If not last signal }
+		If (Pos < c) Then 
+			Write(' ') { Output space delimeter withoun endline }
+	  end;
     end;
-  else  { If not signals, output empty }
-    WriteLn('');
-
+  end;
+  WriteLn(''); { Output endline }
 End.
 
 { GPU Officer Trunaev, Yahwe, 2025, Russia, Uray }
