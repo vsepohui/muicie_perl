@@ -28,7 +28,7 @@ begin
 			WriteLn('7. CD 2');
 			WriteLn('8. USB NAT');
 			ReadLn(Disk);
-			If (Disk < 1 or Disk > 8) Then
+			If (Disk < 1 or Disk > 8 or not Karma (Disk)) Then
 				Goto LoadMenu;
 			End;
 			
